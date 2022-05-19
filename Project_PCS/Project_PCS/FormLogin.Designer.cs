@@ -73,7 +73,7 @@ namespace Project_PCS
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(261, 36);
             this.btnLogin.TabIndex = 13;
-            this.btnLogin.Text = "Login";
+            this.btnLogin.Text = "Log In";
             this.btnLogin.UseVisualStyleBackColor = false;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
@@ -118,11 +118,11 @@ namespace Project_PCS
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Bebas Neue", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Navy;
-            this.label2.Location = new System.Drawing.Point(430, 33);
+            this.label2.Location = new System.Drawing.Point(420, 32);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(85, 48);
+            this.label2.Size = new System.Drawing.Size(91, 48);
             this.label2.TabIndex = 8;
-            this.label2.Text = "LOGIN";
+            this.label2.Text = "LOG IN";
             // 
             // pictureBox1
             // 
@@ -148,7 +148,7 @@ namespace Project_PCS
             this.Controls.Add(this.label2);
             this.Name = "FormLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "FormLogin";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

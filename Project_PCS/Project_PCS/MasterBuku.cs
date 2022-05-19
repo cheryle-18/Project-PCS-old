@@ -11,9 +11,9 @@ using System.Windows;
 
 namespace Project_PCS
 {
-    public partial class btnBuku : Form
+    public partial class MasterBuku : Form
     {
-        public btnBuku()
+        public MasterBuku()
         {
             InitializeComponent();
         }

@@ -1,7 +1,7 @@
 ﻿
 namespace Project_PCS
 {
-    partial class btnBuku
+    partial class MasterBuku
     {
         /// <summary>
         /// Required designer variable.
@@ -32,7 +32,7 @@ namespace Project_PCS
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnMasterBuku = new System.Windows.Forms.Button();
+            this.btnBuku = new System.Windows.Forms.Button();
             this.btnTransaksi = new System.Windows.Forms.Button();
             this.btnPreOrder = new System.Windows.Forms.Button();
             this.btnLogout = new System.Windows.Forms.Button();
@@ -48,7 +48,7 @@ namespace Project_PCS
             this.panel1.Controls.Add(this.btnLogout);
             this.panel1.Controls.Add(this.btnPreOrder);
             this.panel1.Controls.Add(this.btnTransaksi);
-            this.panel1.Controls.Add(this.btnMasterBuku);
+            this.panel1.Controls.Add(this.btnBuku);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -77,19 +77,19 @@ namespace Project_PCS
             this.label1.TabIndex = 2;
             this.label1.Text = "BOOK STATION";
             // 
-            // btnMasterBuku
+            // btnBuku
             // 
-            this.btnMasterBuku.BackColor = System.Drawing.Color.White;
-            this.btnMasterBuku.FlatAppearance.BorderSize = 0;
-            this.btnMasterBuku.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMasterBuku.Font = new System.Drawing.Font("Open Sans SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMasterBuku.ForeColor = System.Drawing.Color.Navy;
-            this.btnMasterBuku.Location = new System.Drawing.Point(0, 168);
-            this.btnMasterBuku.Name = "btnMasterBuku";
-            this.btnMasterBuku.Size = new System.Drawing.Size(203, 43);
-            this.btnMasterBuku.TabIndex = 4;
-            this.btnMasterBuku.Text = "Buku";
-            this.btnMasterBuku.UseVisualStyleBackColor = false;
+            this.btnBuku.BackColor = System.Drawing.Color.White;
+            this.btnBuku.FlatAppearance.BorderSize = 0;
+            this.btnBuku.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBuku.Font = new System.Drawing.Font("Open Sans SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuku.ForeColor = System.Drawing.Color.Navy;
+            this.btnBuku.Location = new System.Drawing.Point(0, 168);
+            this.btnBuku.Name = "btnBuku";
+            this.btnBuku.Size = new System.Drawing.Size(203, 43);
+            this.btnBuku.TabIndex = 4;
+            this.btnBuku.Text = "Buku";
+            this.btnBuku.UseVisualStyleBackColor = false;
             // 
             // btnTransaksi
             // 
@@ -144,14 +144,14 @@ namespace Project_PCS
             this.btnMember.Text = "Members";
             this.btnMember.UseVisualStyleBackColor = true;
             // 
-            // btnBuku
+            // MasterBuku
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1284, 661);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Name = "btnBuku";
+            this.Name = "MasterBuku";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MasterBuku";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -171,7 +171,7 @@ namespace Project_PCS
         private System.Windows.Forms.Button btnLogout;
         private System.Windows.Forms.Button btnPreOrder;
         private System.Windows.Forms.Button btnTransaksi;
-        private System.Windows.Forms.Button btnMasterBuku;
+        private System.Windows.Forms.Button btnBuku;
         private System.Windows.Forms.Button btnMember;
     }
 }
