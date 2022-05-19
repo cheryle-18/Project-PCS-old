@@ -55,16 +55,36 @@ namespace Project_PCS
             btnPreOrder.ForeColor = Color.White;
         }
 
-        private void btnMember_MouseLeave(object sender, EventArgs e)
+        private void btnMember_MouseHover(object sender, EventArgs e)
         {
             btnMember.BackColor = Color.White;
             btnMember.ForeColor = Color.Navy;
         }
 
-        private void btnMember_MouseHover(object sender, EventArgs e)
+        private void btnMember_MouseLeave(object sender, EventArgs e)
         {
             btnMember.BackColor = Color.Navy;
             btnMember.ForeColor = Color.White;
+        }
+
+        private void btnLogout_MouseHover(object sender, EventArgs e)
+        {
+            btnLogout.BackColor = Color.White;
+            btnLogout.ForeColor = Color.Navy;
+        }
+
+        private void btnLogout_MouseLeave(object sender, EventArgs e)
+        {
+            btnLogout.BackColor = Color.Navy;
+            btnLogout.ForeColor = Color.White;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormDetailBuku frm = new FormDetailBuku();
+            frm.ShowDialog();
+            this.Close();
         }
     }
 }

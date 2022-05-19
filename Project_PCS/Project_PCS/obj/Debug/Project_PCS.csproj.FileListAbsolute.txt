@@ -9,3 +9,4 @@ C:\Users\LENOVO\Documents\GitHub\Project-PCS\Project_PCS\Project_PCS\obj\Debug\P
 C:\Users\LENOVO\Documents\GitHub\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.csproj.CoreCompileInputs.cache
 C:\Users\LENOVO\Documents\GitHub\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.exe
 C:\Users\LENOVO\Documents\GitHub\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.pdb
+C:\Users\LENOVO\Documents\GitHub\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.FormDetailBuku.resources
