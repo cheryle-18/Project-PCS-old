@@ -63,6 +63,7 @@ namespace Project_PCS
             this.lbFormat = new System.Windows.Forms.Label();
             this.lbIsbn10 = new System.Windows.Forms.Label();
             this.lbIsbn13 = new System.Windows.Forms.Label();
+            this.btnBack = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -116,6 +117,8 @@ namespace Project_PCS
             this.btnMember.TabIndex = 8;
             this.btnMember.Text = "Members";
             this.btnMember.UseVisualStyleBackColor = true;
+            this.btnMember.MouseLeave += new System.EventHandler(this.btnMember_MouseLeave);
+            this.btnMember.MouseHover += new System.EventHandler(this.btnMember_MouseHover);
             // 
             // btnLogout
             // 
@@ -132,6 +135,8 @@ namespace Project_PCS
             this.btnLogout.TabIndex = 7;
             this.btnLogout.Text = "Log Out";
             this.btnLogout.UseVisualStyleBackColor = true;
+            this.btnLogout.MouseLeave += new System.EventHandler(this.btnLogout_MouseLeave);
+            this.btnLogout.MouseHover += new System.EventHandler(this.btnLogout_MouseHover);
             // 
             // btnPreOrder
             // 
@@ -145,6 +150,8 @@ namespace Project_PCS
             this.btnPreOrder.TabIndex = 6;
             this.btnPreOrder.Text = "Pre-Order";
             this.btnPreOrder.UseVisualStyleBackColor = true;
+            this.btnPreOrder.MouseLeave += new System.EventHandler(this.btnPreOrder_MouseLeave);
+            this.btnPreOrder.MouseHover += new System.EventHandler(this.btnPreOrder_MouseHover);
             // 
             // btnTransaksi
             // 
@@ -158,6 +165,8 @@ namespace Project_PCS
             this.btnTransaksi.TabIndex = 5;
             this.btnTransaksi.Text = "Transaksi";
             this.btnTransaksi.UseVisualStyleBackColor = true;
+            this.btnTransaksi.MouseLeave += new System.EventHandler(this.btnTransaksi_MouseLeave);
+            this.btnTransaksi.MouseHover += new System.EventHandler(this.btnTransaksi_MouseHover);
             // 
             // btnBuku
             // 
@@ -434,11 +443,30 @@ namespace Project_PCS
             this.lbIsbn13.TabIndex = 37;
             this.lbIsbn13.Text = "9781408855676";
             // 
+            // btnBack
+            // 
+            this.btnBack.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnBack.BackColor = System.Drawing.Color.Navy;
+            this.btnBack.FlatAppearance.BorderSize = 0;
+            this.btnBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBack.Font = new System.Drawing.Font("Segoe UI Semibold", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBack.ForeColor = System.Drawing.Color.White;
+            this.btnBack.Location = new System.Drawing.Point(1108, 606);
+            this.btnBack.Name = "btnBack";
+            this.btnBack.Size = new System.Drawing.Size(164, 43);
+            this.btnBack.TabIndex = 38;
+            this.btnBack.Text = "Back";
+            this.btnBack.UseVisualStyleBackColor = false;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
+            // 
             // FormDetailBuku
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1284, 661);
+            this.Controls.Add(this.btnBack);
             this.Controls.Add(this.lbIsbn13);
             this.Controls.Add(this.lbIsbn10);
             this.Controls.Add(this.lbFormat);
@@ -515,5 +543,6 @@ namespace Project_PCS
         private System.Windows.Forms.Label lbFormat;
         private System.Windows.Forms.Label lbIsbn10;
         private System.Windows.Forms.Label lbIsbn13;
+        private System.Windows.Forms.Button btnBack;
     }
 }

@@ -30,20 +30,20 @@ namespace Project_PCS
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.btnBuku = new System.Windows.Forms.Button();
-            this.btnTransaksi = new System.Windows.Forms.Button();
-            this.btnPreOrder = new System.Windows.Forms.Button();
-            this.btnLogout = new System.Windows.Forms.Button();
             this.btnMember = new System.Windows.Forms.Button();
+            this.btnLogout = new System.Windows.Forms.Button();
+            this.btnPreOrder = new System.Windows.Forms.Button();
+            this.btnTransaksi = new System.Windows.Forms.Button();
+            this.btnBuku = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.button1 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lbNama = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -64,45 +64,39 @@ namespace Project_PCS
             this.panel1.Size = new System.Drawing.Size(226, 660);
             this.panel1.TabIndex = 0;
             // 
-            // label1
+            // btnMember
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Britannic Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(19, 90);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(191, 30);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "BOOK STATION";
+            this.btnMember.FlatAppearance.BorderSize = 0;
+            this.btnMember.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMember.Font = new System.Drawing.Font("Segoe UI Semibold", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMember.ForeColor = System.Drawing.Color.White;
+            this.btnMember.Location = new System.Drawing.Point(0, 309);
+            this.btnMember.Name = "btnMember";
+            this.btnMember.Size = new System.Drawing.Size(226, 43);
+            this.btnMember.TabIndex = 8;
+            this.btnMember.Text = "Members";
+            this.btnMember.UseVisualStyleBackColor = true;
+            this.btnMember.MouseLeave += new System.EventHandler(this.btnMember_MouseLeave);
+            this.btnMember.MouseHover += new System.EventHandler(this.btnMember_MouseHover);
             // 
-            // btnBuku
+            // btnLogout
             // 
-            this.btnBuku.BackColor = System.Drawing.Color.White;
-            this.btnBuku.FlatAppearance.BorderSize = 0;
-            this.btnBuku.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBuku.Font = new System.Drawing.Font("Segoe UI Semibold", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBuku.ForeColor = System.Drawing.Color.Navy;
-            this.btnBuku.Location = new System.Drawing.Point(0, 168);
-            this.btnBuku.Name = "btnBuku";
-            this.btnBuku.Size = new System.Drawing.Size(226, 43);
-            this.btnBuku.TabIndex = 4;
-            this.btnBuku.Text = "Buku";
-            this.btnBuku.UseVisualStyleBackColor = false;
-            // 
-            // btnTransaksi
-            // 
-            this.btnTransaksi.FlatAppearance.BorderSize = 0;
-            this.btnTransaksi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTransaksi.Font = new System.Drawing.Font("Segoe UI Semibold", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTransaksi.ForeColor = System.Drawing.Color.White;
-            this.btnTransaksi.Location = new System.Drawing.Point(0, 211);
-            this.btnTransaksi.Name = "btnTransaksi";
-            this.btnTransaksi.Size = new System.Drawing.Size(226, 43);
-            this.btnTransaksi.TabIndex = 5;
-            this.btnTransaksi.Text = "Transaksi";
-            this.btnTransaksi.UseVisualStyleBackColor = true;
-            this.btnTransaksi.MouseLeave += new System.EventHandler(this.btnTransaksi_MouseLeave);
-            this.btnTransaksi.MouseHover += new System.EventHandler(this.btnTransaksi_MouseHover);
+            this.btnLogout.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnLogout.FlatAppearance.BorderSize = 0;
+            this.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLogout.Font = new System.Drawing.Font("Segoe UI Semibold", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogout.ForeColor = System.Drawing.Color.White;
+            this.btnLogout.Location = new System.Drawing.Point(0, 596);
+            this.btnLogout.Margin = new System.Windows.Forms.Padding(3, 3, 3, 10);
+            this.btnLogout.Name = "btnLogout";
+            this.btnLogout.Size = new System.Drawing.Size(226, 43);
+            this.btnLogout.TabIndex = 7;
+            this.btnLogout.Text = "Log Out";
+            this.btnLogout.UseVisualStyleBackColor = true;
+            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
+            this.btnLogout.MouseLeave += new System.EventHandler(this.btnLogout_MouseLeave);
+            this.btnLogout.MouseHover += new System.EventHandler(this.btnLogout_MouseHover);
             // 
             // btnPreOrder
             // 
@@ -119,39 +113,55 @@ namespace Project_PCS
             this.btnPreOrder.MouseLeave += new System.EventHandler(this.btnPreOrder_MouseLeave);
             this.btnPreOrder.MouseHover += new System.EventHandler(this.btnPreOrder_MouseHover);
             // 
-            // btnLogout
+            // btnTransaksi
             // 
-            this.btnLogout.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnLogout.FlatAppearance.BorderSize = 0;
-            this.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLogout.Font = new System.Drawing.Font("Segoe UI Semibold", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogout.ForeColor = System.Drawing.Color.White;
-            this.btnLogout.Location = new System.Drawing.Point(0, 596);
-            this.btnLogout.Margin = new System.Windows.Forms.Padding(3, 3, 3, 10);
-            this.btnLogout.Name = "btnLogout";
-            this.btnLogout.Size = new System.Drawing.Size(223, 43);
-            this.btnLogout.TabIndex = 7;
-            this.btnLogout.Text = "Log Out";
-            this.btnLogout.UseVisualStyleBackColor = true;
-            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
-            this.btnLogout.MouseLeave += new System.EventHandler(this.btnLogout_MouseLeave);
-            this.btnLogout.MouseHover += new System.EventHandler(this.btnLogout_MouseHover);
+            this.btnTransaksi.FlatAppearance.BorderSize = 0;
+            this.btnTransaksi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTransaksi.Font = new System.Drawing.Font("Segoe UI Semibold", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTransaksi.ForeColor = System.Drawing.Color.White;
+            this.btnTransaksi.Location = new System.Drawing.Point(0, 211);
+            this.btnTransaksi.Name = "btnTransaksi";
+            this.btnTransaksi.Size = new System.Drawing.Size(226, 43);
+            this.btnTransaksi.TabIndex = 5;
+            this.btnTransaksi.Text = "Transaksi";
+            this.btnTransaksi.UseVisualStyleBackColor = true;
+            this.btnTransaksi.MouseLeave += new System.EventHandler(this.btnTransaksi_MouseLeave);
+            this.btnTransaksi.MouseHover += new System.EventHandler(this.btnTransaksi_MouseHover);
             // 
-            // btnMember
+            // btnBuku
             // 
-            this.btnMember.FlatAppearance.BorderSize = 0;
-            this.btnMember.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMember.Font = new System.Drawing.Font("Segoe UI Semibold", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMember.ForeColor = System.Drawing.Color.White;
-            this.btnMember.Location = new System.Drawing.Point(0, 309);
-            this.btnMember.Name = "btnMember";
-            this.btnMember.Size = new System.Drawing.Size(226, 43);
-            this.btnMember.TabIndex = 8;
-            this.btnMember.Text = "Members";
-            this.btnMember.UseVisualStyleBackColor = true;
-            this.btnMember.MouseLeave += new System.EventHandler(this.btnMember_MouseLeave);
-            this.btnMember.MouseHover += new System.EventHandler(this.btnMember_MouseHover);
+            this.btnBuku.BackColor = System.Drawing.Color.White;
+            this.btnBuku.FlatAppearance.BorderSize = 0;
+            this.btnBuku.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBuku.Font = new System.Drawing.Font("Segoe UI Semibold", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuku.ForeColor = System.Drawing.Color.Navy;
+            this.btnBuku.Location = new System.Drawing.Point(0, 168);
+            this.btnBuku.Name = "btnBuku";
+            this.btnBuku.Size = new System.Drawing.Size(226, 43);
+            this.btnBuku.TabIndex = 4;
+            this.btnBuku.Text = "Buku";
+            this.btnBuku.UseVisualStyleBackColor = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Britannic Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(19, 90);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(191, 30);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "BOOK STATION";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Project_PCS.Properties.Resources.book;
+            this.pictureBox1.Location = new System.Drawing.Point(36, 26);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(155, 61);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
             // 
             // dataGridView1
             // 
@@ -176,21 +186,11 @@ namespace Project_PCS
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(879, 606);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(164, 43);
+            this.button1.Size = new System.Drawing.Size(164, 44);
             this.button1.TabIndex = 9;
             this.button1.Text = "Lihat Detail";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Project_PCS.Properties.Resources.book;
-            this.pictureBox1.Location = new System.Drawing.Point(36, 26);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(155, 61);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
             // 
             // lbNama
             // 
@@ -204,15 +204,13 @@ namespace Project_PCS
             // 
             // panel2
             // 
-            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel2.Controls.Add(this.dataGridView1);
             this.panel2.Controls.Add(this.button1);
             this.panel2.Controls.Add(this.lbNama);
-            this.panel2.Location = new System.Drawing.Point(229, 0);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel2.Location = new System.Drawing.Point(231, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1053, 660);
+            this.panel2.Size = new System.Drawing.Size(1053, 661);
             this.panel2.TabIndex = 12;
             // 
             // MasterBuku
@@ -230,8 +228,8 @@ namespace Project_PCS
             this.Load += new System.EventHandler(this.MasterBuku_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.ResumeLayout(false);
