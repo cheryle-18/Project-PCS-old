@@ -7,20 +7,26 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows;
 
 namespace Project_PCS
 {
-    public partial class FormLogin : Form
+    public partial class btnBuku : Form
     {
-        public FormLogin()
+        public btnBuku()
         {
             InitializeComponent();
         }
 
-        private void btnLogin_Click(object sender, EventArgs e)
+        private void MasterBuku_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void btnLogout_Click(object sender, EventArgs e)
         {
             this.Hide();
-            MasterBuku frm = new MasterBuku();
+            FormLogin frm = new FormLogin();
             frm.ShowDialog();
             this.Close();
         }
