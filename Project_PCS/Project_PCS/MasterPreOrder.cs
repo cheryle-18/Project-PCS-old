@@ -27,7 +27,6 @@ namespace Project_PCS
             this.Hide();
             FormLogin frm = new FormLogin();
             frm.ShowDialog();
-            this.Close();
         }
 
         private void btnBuku_MouseHover(object sender, EventArgs e)
@@ -80,26 +79,23 @@ namespace Project_PCS
 
         private void btnBuku_Click(object sender, EventArgs e)
         {
+            this.Hide();
             MasterBuku frm = new MasterBuku();
             frm.ShowDialog();
-            this.Hide();
-            this.Close();
         }
 
         private void btnTransaksi_Click(object sender, EventArgs e)
         {
+            this.Hide();
             MasterTransaksi frm = new MasterTransaksi();
             frm.ShowDialog();
-            this.Hide();
-            this.Close();
         }
 
         private void btnMember_Click(object sender, EventArgs e)
         {
+            this.Hide();
             MasterMember frm = new MasterMember();
             frm.ShowDialog();
-            this.Hide();
-            this.Close();
         }
     }
 }

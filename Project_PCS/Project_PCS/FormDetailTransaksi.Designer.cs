@@ -371,6 +371,7 @@ namespace Project_PCS
             this.Name = "FormDetailTransaksi";
             this.Text = "FormDetailTransaksi";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormDetailTransaksi_FormClosed);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

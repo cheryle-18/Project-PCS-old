@@ -81,34 +81,35 @@ namespace Project_PCS
 
         private void btnPreOrder_Click(object sender, EventArgs e)
         {
+            this.Hide();
             MasterPreOrder frm = new MasterPreOrder();
             frm.ShowDialog();
-            this.Hide();
-            this.Close();
         }
 
         private void btnDetail_Click(object sender, EventArgs e)
         {
+            this.Hide();
             FormDetailBuku frm = new FormDetailBuku();
             frm.ShowDialog();
-            this.Hide();
-            this.Close();
         }
 
         private void btnTransaksi_Click(object sender, EventArgs e)
         {
+            this.Hide();
             MasterTransaksi frm = new MasterTransaksi();
             frm.ShowDialog();
-            this.Hide();
-            this.Close();
         }
 
         private void btnMember_Click(object sender, EventArgs e)
         {
+            this.Hide();
             MasterMember frm = new MasterMember();
             frm.ShowDialog();
-            this.Hide();
-            this.Close();
+        }
+
+        private void MasterBuku_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

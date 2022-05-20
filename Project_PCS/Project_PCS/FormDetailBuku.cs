@@ -85,5 +85,10 @@ namespace Project_PCS
             frm.ShowDialog();
             this.Close();
         }
+
+        private void FormDetailBuku_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

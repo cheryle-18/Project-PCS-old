@@ -354,6 +354,7 @@ namespace Project_PCS
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MasterMember";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MasterMember_FormClosed);
             this.Load += new System.EventHandler(this.MasterMember_Load);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();

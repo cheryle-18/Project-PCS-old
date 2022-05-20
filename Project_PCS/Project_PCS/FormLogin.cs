@@ -22,7 +22,16 @@ namespace Project_PCS
             this.Hide();
             MasterBuku frm = new MasterBuku();
             frm.ShowDialog();
-            this.Close();
+        }
+
+        private void FormLogin_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FormLogin_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
