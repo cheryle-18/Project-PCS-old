@@ -7,20 +7,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Windows;
 
 namespace Project_PCS
 {
-    public partial class MasterBuku : Form
+    public partial class MasterMember : Form
     {
-        public MasterBuku()
+        public MasterMember()
         {
             InitializeComponent();
         }
 
-        private void MasterBuku_Load(object sender, EventArgs e)
+        private void MasterMember_Load(object sender, EventArgs e)
         {
-            
+
         }
 
         private void btnLogout_Click(object sender, EventArgs e)
@@ -29,6 +28,18 @@ namespace Project_PCS
             FormLogin frm = new FormLogin();
             frm.ShowDialog();
             this.Close();
+        }
+
+        private void btnBuku_MouseHover(object sender, EventArgs e)
+        {
+            btnBuku.BackColor = Color.White;
+            btnBuku.ForeColor = Color.Navy;
+        }
+
+        private void btnBuku_MouseLeave(object sender, EventArgs e)
+        {
+            btnBuku.BackColor = Color.Navy;
+            btnBuku.ForeColor = Color.White;
         }
 
         private void btnTransaksi_MouseHover(object sender, EventArgs e)
@@ -42,7 +53,6 @@ namespace Project_PCS
             btnTransaksi.BackColor = Color.Navy;
             btnTransaksi.ForeColor = Color.White;
         }
-
         private void btnPreOrder_MouseHover(object sender, EventArgs e)
         {
             btnPreOrder.BackColor = Color.White;
@@ -53,18 +63,6 @@ namespace Project_PCS
         {
             btnPreOrder.BackColor = Color.Navy;
             btnPreOrder.ForeColor = Color.White;
-        }
-
-        private void btnMember_MouseHover(object sender, EventArgs e)
-        {
-            btnMember.BackColor = Color.White;
-            btnMember.ForeColor = Color.Navy;
-        }
-
-        private void btnMember_MouseLeave(object sender, EventArgs e)
-        {
-            btnMember.BackColor = Color.Navy;
-            btnMember.ForeColor = Color.White;
         }
 
         private void btnLogout_MouseHover(object sender, EventArgs e)
@@ -79,17 +77,9 @@ namespace Project_PCS
             btnLogout.ForeColor = Color.White;
         }
 
-        private void btnPreOrder_Click(object sender, EventArgs e)
+        private void btnBuku_Click(object sender, EventArgs e)
         {
-            MasterPreOrder frm = new MasterPreOrder();
-            frm.ShowDialog();
-            this.Hide();
-            this.Close();
-        }
-
-        private void btnDetail_Click(object sender, EventArgs e)
-        {
-            FormDetailBuku frm = new FormDetailBuku();
+            MasterBuku frm = new MasterBuku();
             frm.ShowDialog();
             this.Hide();
             this.Close();
@@ -103,9 +93,9 @@ namespace Project_PCS
             this.Close();
         }
 
-        private void btnMember_Click(object sender, EventArgs e)
+        private void btnPreOrder_Click(object sender, EventArgs e)
         {
-            MasterMember frm = new MasterMember();
+            MasterPreOrder frm = new MasterPreOrder();
             frm.ShowDialog();
             this.Hide();
             this.Close();

@@ -77,5 +77,13 @@ namespace Project_PCS
             btnLogout.BackColor = Color.Navy;
             btnLogout.ForeColor = Color.White;
         }
+
+        private void btnPreOrder_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MasterPreOrder frm = new MasterPreOrder();
+            frm.ShowDialog();
+            this.Close();
+        }
     }
 }

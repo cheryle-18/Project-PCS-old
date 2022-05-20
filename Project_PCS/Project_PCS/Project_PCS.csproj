@@ -64,6 +64,24 @@
     <Compile Include="MasterBuku.Designer.cs">
       <DependentUpon>MasterBuku.cs</DependentUpon>
     </Compile>
+    <Compile Include="MasterMember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterMember.Designer.cs">
+      <DependentUpon>MasterMember.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPreOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterPreOrder.Designer.cs">
+      <DependentUpon>MasterPreOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasterTransaksi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterTransaksi.Designer.cs">
+      <DependentUpon>MasterTransaksi.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormDetailBuku.resx">
@@ -74,6 +92,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MasterBuku.resx">
       <DependentUpon>MasterBuku.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterMember.resx">
+      <DependentUpon>MasterMember.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterPreOrder.resx">
+      <DependentUpon>MasterPreOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterTransaksi.resx">
+      <DependentUpon>MasterTransaksi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

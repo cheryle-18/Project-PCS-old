@@ -39,9 +39,6 @@ namespace Project_PCS
             this.btnTransaksi = new System.Windows.Forms.Button();
             this.btnBuku = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.lbNama = new System.Windows.Forms.Label();
             this.lbHarga = new System.Windows.Forms.Label();
             this.lbStatus = new System.Windows.Forms.Label();
             this.lbAuthor = new System.Windows.Forms.Label();
@@ -64,9 +61,14 @@ namespace Project_PCS
             this.lbIsbn10 = new System.Windows.Forms.Label();
             this.lbIsbn13 = new System.Windows.Forms.Label();
             this.btnBack = new System.Windows.Forms.Button();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.lbNama = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // lbJudul
@@ -150,6 +152,7 @@ namespace Project_PCS
             this.btnPreOrder.TabIndex = 6;
             this.btnPreOrder.Text = "Pre-Order";
             this.btnPreOrder.UseVisualStyleBackColor = true;
+            this.btnPreOrder.Click += new System.EventHandler(this.btnPreOrder_Click);
             this.btnPreOrder.MouseLeave += new System.EventHandler(this.btnPreOrder_MouseLeave);
             this.btnPreOrder.MouseHover += new System.EventHandler(this.btnPreOrder_MouseHover);
             // 
@@ -192,35 +195,6 @@ namespace Project_PCS
             this.label1.Size = new System.Drawing.Size(191, 30);
             this.label1.TabIndex = 2;
             this.label1.Text = "BOOK STATION";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Project_PCS.Properties.Resources.book;
-            this.pictureBox1.Location = new System.Drawing.Point(36, 26);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(155, 61);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Location = new System.Drawing.Point(253, 101);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(195, 265);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 15;
-            this.pictureBox2.TabStop = false;
-            // 
-            // lbNama
-            // 
-            this.lbNama.AutoSize = true;
-            this.lbNama.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbNama.Location = new System.Drawing.Point(1105, 15);
-            this.lbNama.Name = "lbNama";
-            this.lbNama.Size = new System.Drawing.Size(167, 23);
-            this.lbNama.TabIndex = 16;
-            this.lbNama.Text = "Halo, Nama Pegawai";
             // 
             // lbHarga
             // 
@@ -461,11 +435,53 @@ namespace Project_PCS
             this.btnBack.UseVisualStyleBackColor = false;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.Navy;
+            this.panel3.Controls.Add(this.lbNama);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel3.Location = new System.Drawing.Point(226, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(1058, 41);
+            this.panel3.TabIndex = 39;
+            // 
+            // lbNama
+            // 
+            this.lbNama.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbNama.AutoSize = true;
+            this.lbNama.Font = new System.Drawing.Font("Segoe UI Semibold", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbNama.ForeColor = System.Drawing.Color.White;
+            this.lbNama.Location = new System.Drawing.Point(864, 9);
+            this.lbNama.Name = "lbNama";
+            this.lbNama.Size = new System.Drawing.Size(169, 23);
+            this.lbNama.TabIndex = 11;
+            this.lbNama.Text = "Halo, Nama Pegawai";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Location = new System.Drawing.Point(253, 101);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(195, 265);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 15;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Project_PCS.Properties.Resources.book;
+            this.pictureBox1.Location = new System.Drawing.Point(36, 26);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(155, 61);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
+            // 
             // FormDetailBuku
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1284, 661);
+            this.Controls.Add(this.panel3);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.lbIsbn13);
             this.Controls.Add(this.lbIsbn10);
@@ -488,7 +504,6 @@ namespace Project_PCS
             this.Controls.Add(this.lbAuthor);
             this.Controls.Add(this.lbStatus);
             this.Controls.Add(this.lbHarga);
-            this.Controls.Add(this.lbNama);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.lbJudul);
@@ -501,8 +516,10 @@ namespace Project_PCS
             this.Load += new System.EventHandler(this.FormDetailBuku_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -521,7 +538,6 @@ namespace Project_PCS
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Label lbNama;
         private System.Windows.Forms.Label lbHarga;
         private System.Windows.Forms.Label lbStatus;
         private System.Windows.Forms.Label lbAuthor;
@@ -544,5 +560,7 @@ namespace Project_PCS
         private System.Windows.Forms.Label lbIsbn10;
         private System.Windows.Forms.Label lbIsbn13;
         private System.Windows.Forms.Button btnBack;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Label lbNama;
     }
 }

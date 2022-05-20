@@ -1,7 +1,7 @@
 ﻿
 namespace Project_PCS
 {
-    partial class MasterBuku
+    partial class MasterTransaksi
     {
         /// <summary>
         /// Required designer variable.
@@ -29,6 +29,7 @@ namespace Project_PCS
         /// </summary>
         private void InitializeComponent()
         {
+            this.btnDetail = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnMember = new System.Windows.Forms.Button();
             this.btnLogout = new System.Windows.Forms.Button();
@@ -37,12 +38,8 @@ namespace Project_PCS
             this.btnBuku = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.lbNama = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.btnDetail = new System.Windows.Forms.Button();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.btnTransBaru = new System.Windows.Forms.Button();
             this.btnReset = new System.Windows.Forms.Button();
             this.cmbArah = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -51,12 +48,31 @@ namespace Project_PCS
             this.tbCari = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.lbNama = new System.Windows.Forms.Label();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
+            // 
+            // btnDetail
+            // 
+            this.btnDetail.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnDetail.BackColor = System.Drawing.Color.Navy;
+            this.btnDetail.FlatAppearance.BorderSize = 0;
+            this.btnDetail.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDetail.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDetail.ForeColor = System.Drawing.Color.White;
+            this.btnDetail.Location = new System.Drawing.Point(904, 611);
+            this.btnDetail.Name = "btnDetail";
+            this.btnDetail.Size = new System.Drawing.Size(153, 38);
+            this.btnDetail.TabIndex = 29;
+            this.btnDetail.Text = "Lihat Detail";
+            this.btnDetail.UseVisualStyleBackColor = false;
             // 
             // panel1
             // 
@@ -73,7 +89,7 @@ namespace Project_PCS
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(226, 661);
-            this.panel1.TabIndex = 0;
+            this.panel1.TabIndex = 15;
             // 
             // btnMember
             // 
@@ -112,6 +128,7 @@ namespace Project_PCS
             // 
             // btnPreOrder
             // 
+            this.btnPreOrder.BackColor = System.Drawing.Color.Navy;
             this.btnPreOrder.FlatAppearance.BorderSize = 0;
             this.btnPreOrder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPreOrder.Font = new System.Drawing.Font("Segoe UI Semibold", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -121,40 +138,41 @@ namespace Project_PCS
             this.btnPreOrder.Size = new System.Drawing.Size(226, 43);
             this.btnPreOrder.TabIndex = 6;
             this.btnPreOrder.Text = "Pre-Order";
-            this.btnPreOrder.UseVisualStyleBackColor = true;
+            this.btnPreOrder.UseVisualStyleBackColor = false;
             this.btnPreOrder.Click += new System.EventHandler(this.btnPreOrder_Click);
             this.btnPreOrder.MouseLeave += new System.EventHandler(this.btnPreOrder_MouseLeave);
             this.btnPreOrder.MouseHover += new System.EventHandler(this.btnPreOrder_MouseHover);
             // 
             // btnTransaksi
             // 
+            this.btnTransaksi.BackColor = System.Drawing.Color.White;
             this.btnTransaksi.FlatAppearance.BorderSize = 0;
             this.btnTransaksi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTransaksi.Font = new System.Drawing.Font("Segoe UI Semibold", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTransaksi.ForeColor = System.Drawing.Color.White;
+            this.btnTransaksi.ForeColor = System.Drawing.Color.Navy;
             this.btnTransaksi.Location = new System.Drawing.Point(0, 211);
             this.btnTransaksi.Name = "btnTransaksi";
             this.btnTransaksi.Size = new System.Drawing.Size(226, 43);
             this.btnTransaksi.TabIndex = 5;
             this.btnTransaksi.Text = "Transaksi";
-            this.btnTransaksi.UseVisualStyleBackColor = true;
-            this.btnTransaksi.Click += new System.EventHandler(this.btnTransaksi_Click);
-            this.btnTransaksi.MouseLeave += new System.EventHandler(this.btnTransaksi_MouseLeave);
-            this.btnTransaksi.MouseHover += new System.EventHandler(this.btnTransaksi_MouseHover);
+            this.btnTransaksi.UseVisualStyleBackColor = false;
             // 
             // btnBuku
             // 
-            this.btnBuku.BackColor = System.Drawing.Color.White;
+            this.btnBuku.BackColor = System.Drawing.Color.Navy;
             this.btnBuku.FlatAppearance.BorderSize = 0;
             this.btnBuku.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBuku.Font = new System.Drawing.Font("Segoe UI Semibold", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBuku.ForeColor = System.Drawing.Color.Navy;
+            this.btnBuku.ForeColor = System.Drawing.Color.White;
             this.btnBuku.Location = new System.Drawing.Point(0, 168);
             this.btnBuku.Name = "btnBuku";
             this.btnBuku.Size = new System.Drawing.Size(226, 43);
             this.btnBuku.TabIndex = 4;
             this.btnBuku.Text = "Buku";
             this.btnBuku.UseVisualStyleBackColor = false;
+            this.btnBuku.Click += new System.EventHandler(this.btnBuku_Click);
+            this.btnBuku.MouseLeave += new System.EventHandler(this.btnBuku_MouseLeave);
+            this.btnBuku.MouseHover += new System.EventHandler(this.btnBuku_MouseHover);
             // 
             // label1
             // 
@@ -177,34 +195,11 @@ namespace Project_PCS
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
-            // dataGridView1
-            // 
-            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.Gainsboro;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(28, 160);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(1028, 442);
-            this.dataGridView1.TabIndex = 1;
-            // 
-            // lbNama
-            // 
-            this.lbNama.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.lbNama.AutoSize = true;
-            this.lbNama.Font = new System.Drawing.Font("Segoe UI Semibold", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbNama.ForeColor = System.Drawing.Color.White;
-            this.lbNama.Location = new System.Drawing.Point(887, 9);
-            this.lbNama.Name = "lbNama";
-            this.lbNama.Size = new System.Drawing.Size(169, 23);
-            this.lbNama.TabIndex = 11;
-            this.lbNama.Text = "Halo, Nama Pegawai";
-            // 
             // panel2
             // 
+            this.panel2.BackColor = System.Drawing.Color.White;
+            this.panel2.Controls.Add(this.btnTransBaru);
             this.panel2.Controls.Add(this.btnDetail);
-            this.panel2.Controls.Add(this.radioButton2);
-            this.panel2.Controls.Add(this.radioButton1);
             this.panel2.Controls.Add(this.btnReset);
             this.panel2.Controls.Add(this.cmbArah);
             this.panel2.Controls.Add(this.label4);
@@ -218,47 +213,24 @@ namespace Project_PCS
             this.panel2.Location = new System.Drawing.Point(216, 0);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1068, 661);
-            this.panel2.TabIndex = 12;
+            this.panel2.TabIndex = 16;
             // 
-            // btnDetail
+            // btnTransBaru
             // 
-            this.btnDetail.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.btnTransBaru.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnDetail.BackColor = System.Drawing.Color.Navy;
-            this.btnDetail.FlatAppearance.BorderSize = 0;
-            this.btnDetail.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDetail.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDetail.ForeColor = System.Drawing.Color.White;
-            this.btnDetail.Location = new System.Drawing.Point(903, 611);
-            this.btnDetail.Name = "btnDetail";
-            this.btnDetail.Size = new System.Drawing.Size(153, 38);
-            this.btnDetail.TabIndex = 28;
-            this.btnDetail.Text = "Lihat Detail";
-            this.btnDetail.UseVisualStyleBackColor = false;
-            this.btnDetail.Click += new System.EventHandler(this.btnDetail_Click);
-            // 
-            // radioButton2
-            // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(858, 61);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(61, 25);
-            this.radioButton2.TabIndex = 27;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Desc";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(800, 61);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(52, 25);
-            this.radioButton1.TabIndex = 26;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Asc";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.btnTransBaru.BackColor = System.Drawing.Color.Navy;
+            this.btnTransBaru.FlatAppearance.BorderSize = 0;
+            this.btnTransBaru.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTransBaru.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTransBaru.ForeColor = System.Drawing.Color.White;
+            this.btnTransBaru.Location = new System.Drawing.Point(745, 611);
+            this.btnTransBaru.Name = "btnTransBaru";
+            this.btnTransBaru.Size = new System.Drawing.Size(153, 38);
+            this.btnTransBaru.TabIndex = 30;
+            this.btnTransBaru.Text = "Transaksi Baru";
+            this.btnTransBaru.UseVisualStyleBackColor = false;
             // 
             // btnReset
             // 
@@ -294,9 +266,9 @@ namespace Project_PCS
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(24, 119);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(84, 21);
+            this.label4.Size = new System.Drawing.Size(45, 21);
             this.label4.TabIndex = 23;
-            this.label4.Text = "Cari Buku :";
+            this.label4.Text = "Cari :";
             // 
             // cmbSort
             // 
@@ -304,10 +276,9 @@ namespace Project_PCS
             this.cmbSort.FormattingEnabled = true;
             this.cmbSort.Items.AddRange(new object[] {
             "Kode",
-            "Judul",
-            "Penulis",
-            "Harga",
-            "Stok"});
+            "Invoice",
+            "Tanggal",
+            "Total"});
             this.cmbSort.Location = new System.Drawing.Point(643, 116);
             this.cmbSort.Name = "cmbSort";
             this.cmbSort.Size = new System.Drawing.Size(168, 29);
@@ -324,7 +295,7 @@ namespace Project_PCS
             // 
             // tbCari
             // 
-            this.tbCari.Location = new System.Drawing.Point(114, 116);
+            this.tbCari.Location = new System.Drawing.Point(75, 116);
             this.tbCari.Name = "tbCari";
             this.tbCari.Size = new System.Drawing.Size(294, 29);
             this.tbCari.TabIndex = 15;
@@ -336,9 +307,9 @@ namespace Project_PCS
             this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(23, 56);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(127, 30);
+            this.label3.Size = new System.Drawing.Size(165, 30);
             this.label3.TabIndex = 14;
-            this.label3.Text = "Daftar Buku";
+            this.label3.Text = "Daftar Transaksi";
             // 
             // panel3
             // 
@@ -350,54 +321,75 @@ namespace Project_PCS
             this.panel3.Size = new System.Drawing.Size(1068, 41);
             this.panel3.TabIndex = 12;
             // 
-            // MasterBuku
+            // lbNama
+            // 
+            this.lbNama.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbNama.AutoSize = true;
+            this.lbNama.Font = new System.Drawing.Font("Segoe UI Semibold", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbNama.ForeColor = System.Drawing.Color.White;
+            this.lbNama.Location = new System.Drawing.Point(887, 9);
+            this.lbNama.Name = "lbNama";
+            this.lbNama.Size = new System.Drawing.Size(169, 23);
+            this.lbNama.TabIndex = 11;
+            this.lbNama.Text = "Halo, Nama Pegawai";
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.Gainsboro;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(28, 160);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(1028, 442);
+            this.dataGridView1.TabIndex = 1;
+            // 
+            // MasterTransaksi
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1284, 661);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
             this.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Name = "MasterBuku";
+            this.Name = "MasterTransaksi";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "MasterBuku";
+            this.Text = "MasterTransaksi";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.Load += new System.EventHandler(this.MasterBuku_Load);
+            this.Load += new System.EventHandler(this.MasterTransaksi_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
+        private System.Windows.Forms.Button btnDetail;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button btnMember;
         private System.Windows.Forms.Button btnLogout;
         private System.Windows.Forms.Button btnPreOrder;
         private System.Windows.Forms.Button btnTransaksi;
         private System.Windows.Forms.Button btnBuku;
-        private System.Windows.Forms.Button btnMember;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Label lbNama;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox tbCari;
-        private System.Windows.Forms.ComboBox cmbSort;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnTransBaru;
+        private System.Windows.Forms.Button btnReset;
         private System.Windows.Forms.ComboBox cmbArah;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button btnReset;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.Button btnDetail;
+        private System.Windows.Forms.ComboBox cmbSort;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox tbCari;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Label lbNama;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }

@@ -7,20 +7,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Windows;
 
 namespace Project_PCS
 {
-    public partial class MasterBuku : Form
+    public partial class MasterTransaksi : Form
     {
-        public MasterBuku()
+        public MasterTransaksi()
         {
             InitializeComponent();
         }
 
-        private void MasterBuku_Load(object sender, EventArgs e)
+        private void MasterTransaksi_Load(object sender, EventArgs e)
         {
-            
+
         }
 
         private void btnLogout_Click(object sender, EventArgs e)
@@ -31,16 +30,16 @@ namespace Project_PCS
             this.Close();
         }
 
-        private void btnTransaksi_MouseHover(object sender, EventArgs e)
+        private void btnBuku_MouseHover(object sender, EventArgs e)
         {
-            btnTransaksi.BackColor = Color.White;
-            btnTransaksi.ForeColor = Color.Navy;
+            btnBuku.BackColor = Color.White;
+            btnBuku.ForeColor = Color.Navy;
         }
 
-        private void btnTransaksi_MouseLeave(object sender, EventArgs e)
+        private void btnBuku_MouseLeave(object sender, EventArgs e)
         {
-            btnTransaksi.BackColor = Color.Navy;
-            btnTransaksi.ForeColor = Color.White;
+            btnBuku.BackColor = Color.Navy;
+            btnBuku.ForeColor = Color.White;
         }
 
         private void btnPreOrder_MouseHover(object sender, EventArgs e)
@@ -79,25 +78,17 @@ namespace Project_PCS
             btnLogout.ForeColor = Color.White;
         }
 
+        private void btnBuku_Click(object sender, EventArgs e)
+        {
+            MasterBuku frm = new MasterBuku();
+            frm.ShowDialog();
+            this.Hide();
+            this.Close();
+        }
+
         private void btnPreOrder_Click(object sender, EventArgs e)
         {
             MasterPreOrder frm = new MasterPreOrder();
-            frm.ShowDialog();
-            this.Hide();
-            this.Close();
-        }
-
-        private void btnDetail_Click(object sender, EventArgs e)
-        {
-            FormDetailBuku frm = new FormDetailBuku();
-            frm.ShowDialog();
-            this.Hide();
-            this.Close();
-        }
-
-        private void btnTransaksi_Click(object sender, EventArgs e)
-        {
-            MasterTransaksi frm = new MasterTransaksi();
             frm.ShowDialog();
             this.Hide();
             this.Close();
