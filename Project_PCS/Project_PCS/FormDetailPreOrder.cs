@@ -10,25 +10,29 @@ using System.Windows.Forms;
 
 namespace Project_PCS
 {
-    public partial class MasterPreOrder : Form
+    public partial class FormDetailPreOrder : Form
     {
-        public MasterPreOrder()
+        public FormDetailPreOrder()
         {
             InitializeComponent();
         }
 
-        private void MasterPreOrder_Load(object sender, EventArgs e)
+        private void btnBack_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            lblUtang.Text = "0";
+            lblStatus.Text = "Lunas";
+        }
         private void btnLogout_Click(object sender, EventArgs e)
         {
             this.Hide();
             FormLogin frm = new FormLogin();
             frm.ShowDialog();
         }
-
         private void btnBuku_MouseHover(object sender, EventArgs e)
         {
             btnBuku.BackColor = Color.White;
@@ -98,14 +102,5 @@ namespace Project_PCS
             frm.ShowDialog();
         }
 
-        
-
-        private void btnDetail_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            FormDetailPreOrder frm = new FormDetailPreOrder();
-            frm.ShowDialog();
-            this.Show();
-        }
     }
 }

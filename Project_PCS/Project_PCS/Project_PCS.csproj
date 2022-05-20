@@ -58,6 +58,12 @@
     <Compile Include="FormDetailMember.Designer.cs">
       <DependentUpon>FormDetailMember.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormDetailPreOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDetailPreOrder.Designer.cs">
+      <DependentUpon>FormDetailPreOrder.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormDetailTransaksi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -101,6 +107,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormDetailMember.resx">
       <DependentUpon>FormDetailMember.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDetailPreOrder.resx">
+      <DependentUpon>FormDetailPreOrder.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormDetailTransaksi.resx">
       <DependentUpon>FormDetailTransaksi.cs</DependentUpon>
