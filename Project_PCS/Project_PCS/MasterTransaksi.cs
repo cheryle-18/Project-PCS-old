@@ -101,5 +101,13 @@ namespace Project_PCS
             this.Hide();
             this.Close();
         }
+
+        private void btnDetail_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormDetailTransaksi frm = new FormDetailTransaksi();
+            frm.ShowDialog();
+            
+        }
     }
 }

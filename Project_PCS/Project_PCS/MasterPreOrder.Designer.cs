@@ -59,9 +59,7 @@ namespace Project_PCS
             // 
             // btnReset
             // 
-            this.btnReset.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnReset.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnReset.BackColor = System.Drawing.Color.Navy;
             this.btnReset.FlatAppearance.BorderSize = 0;
             this.btnReset.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -69,13 +67,14 @@ namespace Project_PCS
             this.btnReset.ForeColor = System.Drawing.Color.White;
             this.btnReset.Location = new System.Drawing.Point(951, 115);
             this.btnReset.Name = "btnReset";
-            this.btnReset.Size = new System.Drawing.Size(105, 34);
+            this.btnReset.Size = new System.Drawing.Size(95, 34);
             this.btnReset.TabIndex = 25;
             this.btnReset.Text = "Reset";
             this.btnReset.UseVisualStyleBackColor = false;
             // 
             // cmbArah
             // 
+            this.cmbArah.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.cmbArah.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbArah.FormattingEnabled = true;
             this.cmbArah.Items.AddRange(new object[] {
@@ -97,6 +96,7 @@ namespace Project_PCS
             // 
             // cmbSort
             // 
+            this.cmbSort.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.cmbSort.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbSort.FormattingEnabled = true;
             this.cmbSort.Items.AddRange(new object[] {
@@ -112,6 +112,7 @@ namespace Project_PCS
             // 
             // label2
             // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(474, 119);
             this.label2.Name = "label2";
@@ -144,7 +145,7 @@ namespace Project_PCS
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1068, 41);
+            this.panel3.Size = new System.Drawing.Size(1058, 41);
             this.panel3.TabIndex = 12;
             // 
             // lbNama
@@ -153,7 +154,7 @@ namespace Project_PCS
             this.lbNama.AutoSize = true;
             this.lbNama.Font = new System.Drawing.Font("Segoe UI Semibold", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbNama.ForeColor = System.Drawing.Color.White;
-            this.lbNama.Location = new System.Drawing.Point(887, 9);
+            this.lbNama.Location = new System.Drawing.Point(877, 9);
             this.lbNama.Name = "lbNama";
             this.lbNama.Size = new System.Drawing.Size(169, 23);
             this.lbNama.TabIndex = 11;
@@ -167,7 +168,7 @@ namespace Project_PCS
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(28, 160);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(1028, 442);
+            this.dataGridView1.Size = new System.Drawing.Size(1018, 442);
             this.dataGridView1.TabIndex = 1;
             // 
             // btnMember
@@ -188,8 +189,7 @@ namespace Project_PCS
             // 
             // btnLogout
             // 
-            this.btnLogout.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnLogout.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnLogout.FlatAppearance.BorderSize = 0;
             this.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogout.Font = new System.Drawing.Font("Segoe UI Semibold", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -282,6 +282,9 @@ namespace Project_PCS
             // 
             // panel2
             // 
+            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel2.BackColor = System.Drawing.Color.White;
             this.panel2.Controls.Add(this.btnPOBaru);
             this.panel2.Controls.Add(this.btnDetail);
@@ -294,17 +297,14 @@ namespace Project_PCS
             this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.panel3);
             this.panel2.Controls.Add(this.dataGridView1);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel2.Location = new System.Drawing.Point(216, 0);
+            this.panel2.Location = new System.Drawing.Point(226, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1068, 661);
+            this.panel2.Size = new System.Drawing.Size(1058, 661);
             this.panel2.TabIndex = 14;
             // 
             // btnPOBaru
             // 
-            this.btnPOBaru.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnPOBaru.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnPOBaru.BackColor = System.Drawing.Color.Navy;
             this.btnPOBaru.FlatAppearance.BorderSize = 0;
             this.btnPOBaru.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -312,16 +312,14 @@ namespace Project_PCS
             this.btnPOBaru.ForeColor = System.Drawing.Color.White;
             this.btnPOBaru.Location = new System.Drawing.Point(745, 611);
             this.btnPOBaru.Name = "btnPOBaru";
-            this.btnPOBaru.Size = new System.Drawing.Size(153, 38);
+            this.btnPOBaru.Size = new System.Drawing.Size(143, 38);
             this.btnPOBaru.TabIndex = 30;
             this.btnPOBaru.Text = "Pre-Order Baru";
             this.btnPOBaru.UseVisualStyleBackColor = false;
             // 
             // btnDetail
             // 
-            this.btnDetail.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnDetail.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnDetail.BackColor = System.Drawing.Color.Navy;
             this.btnDetail.FlatAppearance.BorderSize = 0;
             this.btnDetail.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -329,7 +327,7 @@ namespace Project_PCS
             this.btnDetail.ForeColor = System.Drawing.Color.White;
             this.btnDetail.Location = new System.Drawing.Point(904, 611);
             this.btnDetail.Name = "btnDetail";
-            this.btnDetail.Size = new System.Drawing.Size(153, 38);
+            this.btnDetail.Size = new System.Drawing.Size(143, 38);
             this.btnDetail.TabIndex = 29;
             this.btnDetail.Text = "Lihat Detail";
             this.btnDetail.UseVisualStyleBackColor = false;
