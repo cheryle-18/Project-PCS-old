@@ -76,11 +76,23 @@
     <Compile Include="MasterBuku.Designer.cs">
       <DependentUpon>MasterBuku.cs</DependentUpon>
     </Compile>
+    <Compile Include="MasterBukuAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterBukuAdmin.Designer.cs">
+      <DependentUpon>MasterBukuAdmin.cs</DependentUpon>
+    </Compile>
     <Compile Include="MasterMember.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MasterMember.Designer.cs">
       <DependentUpon>MasterMember.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPenerbitAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterPenerbitAdmin.Designer.cs">
+      <DependentUpon>MasterPenerbitAdmin.cs</DependentUpon>
     </Compile>
     <Compile Include="MasterPreOrder.cs">
       <SubType>Form</SubType>
@@ -111,8 +123,14 @@
     <EmbeddedResource Include="MasterBuku.resx">
       <DependentUpon>MasterBuku.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MasterBukuAdmin.resx">
+      <DependentUpon>MasterBukuAdmin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MasterMember.resx">
       <DependentUpon>MasterMember.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterPenerbitAdmin.resx">
+      <DependentUpon>MasterPenerbitAdmin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MasterPreOrder.resx">
       <DependentUpon>MasterPreOrder.cs</DependentUpon>
