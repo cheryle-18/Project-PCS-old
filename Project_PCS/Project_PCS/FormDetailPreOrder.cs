@@ -15,6 +15,7 @@ namespace Project_PCS
         public FormDetailPreOrder()
         {
             InitializeComponent();
+
         }
 
         private void btnBack_Click(object sender, EventArgs e)
@@ -22,11 +23,6 @@ namespace Project_PCS
             this.Close();
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            lblUtang.Text = "0";
-            lblStatus.Text = "Lunas";
-        }
         private void btnLogout_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -100,6 +96,11 @@ namespace Project_PCS
             this.Hide();
             MasterMember frm = new MasterMember();
             frm.ShowDialog();
+        }
+
+        private void FormDetailPreOrder_Load(object sender, EventArgs e)
+        {
+
         }
 
     }

@@ -36,12 +36,17 @@ namespace Project_PCS
             this.btnTransaksi = new System.Windows.Forms.Button();
             this.btnBuku = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.lblKode = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
+            this.label17 = new System.Windows.Forms.Label();
+            this.lblPegawai = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.tbBayar = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.btnReset = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.lblStatus = new System.Windows.Forms.Label();
             this.lblUtang = new System.Windows.Forms.Label();
@@ -64,10 +69,12 @@ namespace Project_PCS
             this.label6 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.lbNama = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -164,8 +171,6 @@ namespace Project_PCS
             this.btnBuku.Text = "Buku";
             this.btnBuku.UseVisualStyleBackColor = false;
             this.btnBuku.Click += new System.EventHandler(this.btnBuku_Click);
-            this.btnBuku.MouseHover += new System.EventHandler(this.btnBuku_MouseHover);
-            this.btnBuku.Click += new System.EventHandler(this.btnBuku_Click);
             this.btnBuku.MouseLeave += new System.EventHandler(this.btnBuku_MouseLeave);
             this.btnBuku.MouseHover += new System.EventHandler(this.btnBuku_MouseHover);
             // 
@@ -179,16 +184,6 @@ namespace Project_PCS
             this.label1.Size = new System.Drawing.Size(191, 30);
             this.label1.TabIndex = 2;
             this.label1.Text = "BOOK STATION";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Project_PCS.Properties.Resources.book;
-            this.pictureBox1.Location = new System.Drawing.Point(36, 26);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(155, 61);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
             // 
             // label2
             // 
@@ -206,9 +201,9 @@ namespace Project_PCS
             this.lblKode.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
             this.lblKode.Location = new System.Drawing.Point(227, 138);
             this.lblKode.Name = "lblKode";
-            this.lblKode.Size = new System.Drawing.Size(152, 29);
+            this.lblKode.Size = new System.Drawing.Size(165, 29);
             this.lblKode.TabIndex = 16;
-            this.lblKode.Text = "PO20220520";
+            this.lblKode.Text = "PO202205201";
             // 
             // label3
             // 
@@ -223,8 +218,9 @@ namespace Project_PCS
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
-            this.panel2.Controls.Add(this.button2);
-            this.panel2.Controls.Add(this.button1);
+            this.panel2.Controls.Add(this.label17);
+            this.panel2.Controls.Add(this.lblPegawai);
+            this.panel2.Controls.Add(this.groupBox1);
             this.panel2.Controls.Add(this.lblStatus);
             this.panel2.Controls.Add(this.lblUtang);
             this.panel2.Controls.Add(this.label14);
@@ -254,31 +250,94 @@ namespace Project_PCS
             this.panel2.Size = new System.Drawing.Size(1058, 661);
             this.panel2.TabIndex = 15;
             // 
-            // button2
+            // label17
             // 
-            this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button2.BackColor = System.Drawing.Color.Navy;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(855, 532);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(95, 34);
-            this.button2.TabIndex = 44;
-            this.button2.Text = "Lunasi";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.label17.Location = new System.Drawing.Point(40, 558);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(176, 29);
+            this.label17.TabIndex = 48;
+            this.label17.Text = "Kasir                 :";
+            // 
+            // lblPegawai
+            // 
+            this.lblPegawai.AutoSize = true;
+            this.lblPegawai.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.lblPegawai.Location = new System.Drawing.Point(227, 558);
+            this.lblPegawai.Name = "lblPegawai";
+            this.lblPegawai.Size = new System.Drawing.Size(177, 29);
+            this.lblPegawai.TabIndex = 49;
+            this.lblPegawai.Text = "Nama Pegawai";
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox1.Controls.Add(this.label16);
+            this.groupBox1.Controls.Add(this.tbBayar);
+            this.groupBox1.Controls.Add(this.label13);
+            this.groupBox1.Controls.Add(this.btnReset);
+            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Location = new System.Drawing.Point(485, 122);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(561, 208);
+            this.groupBox1.TabIndex = 47;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Pelunasan";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.label16.Location = new System.Drawing.Point(172, 46);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(50, 29);
+            this.label16.TabIndex = 48;
+            this.label16.Text = "Rp.";
+            // 
+            // tbBayar
+            // 
+            this.tbBayar.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.tbBayar.Location = new System.Drawing.Point(228, 48);
+            this.tbBayar.Name = "tbBayar";
+            this.tbBayar.Size = new System.Drawing.Size(267, 35);
+            this.tbBayar.TabIndex = 47;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.label13.Location = new System.Drawing.Point(22, 46);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(144, 29);
+            this.label13.TabIndex = 46;
+            this.label13.Text = "Membayar  :";
+            // 
+            // btnReset
+            // 
+            this.btnReset.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnReset.BackColor = System.Drawing.Color.Navy;
+            this.btnReset.FlatAppearance.BorderSize = 0;
+            this.btnReset.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReset.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReset.ForeColor = System.Drawing.Color.White;
+            this.btnReset.Location = new System.Drawing.Point(341, 152);
+            this.btnReset.Name = "btnReset";
+            this.btnReset.Size = new System.Drawing.Size(95, 34);
+            this.btnReset.TabIndex = 45;
+            this.btnReset.Text = "Reset";
+            this.btnReset.UseVisualStyleBackColor = false;
             // 
             // button1
             // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.button1.BackColor = System.Drawing.Color.Navy;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(737, 532);
+            this.button1.Location = new System.Drawing.Point(460, 152);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(95, 34);
             this.button1.TabIndex = 43;
@@ -303,7 +362,7 @@ namespace Project_PCS
             this.lblUtang.Name = "lblUtang";
             this.lblUtang.Size = new System.Drawing.Size(137, 29);
             this.lblUtang.TabIndex = 41;
-            this.lblUtang.Text = "420.000,00-";
+            this.lblUtang.Text = "210.000,00-";
             // 
             // label14
             // 
@@ -463,7 +522,7 @@ namespace Project_PCS
             this.btnBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBack.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBack.ForeColor = System.Drawing.Color.White;
-            this.btnBack.Location = new System.Drawing.Point(855, 65);
+            this.btnBack.Location = new System.Drawing.Point(945, 56);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(95, 34);
             this.btnBack.TabIndex = 25;
@@ -503,6 +562,16 @@ namespace Project_PCS
             this.lbNama.TabIndex = 11;
             this.lbNama.Text = "Halo, Nama Pegawai";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Project_PCS.Properties.Resources.book;
+            this.pictureBox1.Location = new System.Drawing.Point(36, 26);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(155, 61);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
+            // 
             // FormDetailPreOrder
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -514,13 +583,16 @@ namespace Project_PCS
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Detail Pre-Order";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.FormDetailPreOrder_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -557,10 +629,16 @@ namespace Project_PCS
         private System.Windows.Forms.Label lblQty;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label lblNamaBuku;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label lblStatus;
         private System.Windows.Forms.Label lblUtang;
         private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Button btnReset;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.TextBox tbBayar;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label lblPegawai;
     }
 }

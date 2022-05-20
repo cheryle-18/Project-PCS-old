@@ -76,6 +76,12 @@
     <Compile Include="FormLogin.Designer.cs">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormTambahPreOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTambahPreOrder.Designer.cs">
+      <DependentUpon>FormTambahPreOrder.cs</DependentUpon>
+    </Compile>
     <Compile Include="MasterBuku.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -116,6 +122,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTambahPreOrder.resx">
+      <DependentUpon>FormTambahPreOrder.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MasterBuku.resx">
       <DependentUpon>MasterBuku.cs</DependentUpon>

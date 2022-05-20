@@ -48,3 +48,4 @@ C:\Users\USER\Source\Repos\cheryle-18\Project-PCS\Project_PCS\Project_PCS\obj\De
 C:\Users\USER\Source\Repos\cheryle-18\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.csproj.CoreCompileInputs.cache
 C:\Users\USER\Source\Repos\cheryle-18\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.exe
 C:\Users\USER\Source\Repos\cheryle-18\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.pdb
+C:\Users\USER\Source\Repos\cheryle-18\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.FormTambahPreOrder.resources

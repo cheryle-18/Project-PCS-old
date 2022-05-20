@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace Project_PCS
 {
-    public partial class MasterPreOrder : Form
+    public partial class FormTambahPreOrder : Form
     {
-        public MasterPreOrder()
+        public FormTambahPreOrder()
         {
             InitializeComponent();
         }
 
-        private void MasterPreOrder_Load(object sender, EventArgs e)
+        private void btnBack_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
 
         private void btnLogout_Click(object sender, EventArgs e)
@@ -28,7 +28,6 @@ namespace Project_PCS
             FormLogin frm = new FormLogin();
             frm.ShowDialog();
         }
-
         private void btnBuku_MouseHover(object sender, EventArgs e)
         {
             btnBuku.BackColor = Color.White;
@@ -97,31 +96,5 @@ namespace Project_PCS
             MasterMember frm = new MasterMember();
             frm.ShowDialog();
         }
-
-        
-
-        private void btnDetail_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            FormDetailPreOrder frm = new FormDetailPreOrder();
-            frm.ShowDialog();
-            this.Show();
-        }
-
-        private void btnPOBaru_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            FormTambahPreOrder frm = new FormTambahPreOrder();
-            frm.ShowDialog();
-            this.Show();
-        }
-
-        private void btnReset_Click(object sender, EventArgs e)
-        {
-            tbCari.Text = "Kata Kunci";
-            cmbArah.SelectedIndex = -1;
-            cmbSort.SelectedIndex = -1;
-        }
-
     }
 }
