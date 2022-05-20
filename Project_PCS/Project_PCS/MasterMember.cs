@@ -106,5 +106,12 @@ namespace Project_PCS
         {
             Application.Exit();
         }
+
+        private void btnDetail_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormDetailMember frm = new FormDetailMember();
+            frm.ShowDialog();
+        }
     }
 }

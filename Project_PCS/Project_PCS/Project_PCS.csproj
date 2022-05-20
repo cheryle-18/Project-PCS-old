@@ -52,6 +52,12 @@
     <Compile Include="FormDetailBuku.Designer.cs">
       <DependentUpon>FormDetailBuku.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormDetailMember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDetailMember.Designer.cs">
+      <DependentUpon>FormDetailMember.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormDetailTransaksi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,6 +98,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormDetailBuku.resx">
       <DependentUpon>FormDetailBuku.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDetailMember.resx">
+      <DependentUpon>FormDetailMember.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormDetailTransaksi.resx">
       <DependentUpon>FormDetailTransaksi.cs</DependentUpon>

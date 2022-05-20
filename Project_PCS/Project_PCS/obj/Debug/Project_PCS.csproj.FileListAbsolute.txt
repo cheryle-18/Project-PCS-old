@@ -29,3 +29,4 @@ A:\College\github\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.cspr
 A:\College\github\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.csproj.CoreCompileInputs.cache
 A:\College\github\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.exe
 A:\College\github\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.pdb
+A:\College\github\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.FormDetailMember.resources

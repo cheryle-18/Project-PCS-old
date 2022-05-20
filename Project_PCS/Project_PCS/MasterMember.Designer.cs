@@ -86,6 +86,7 @@ namespace Project_PCS
             this.btnDetail.TabIndex = 29;
             this.btnDetail.Text = "Lihat Detail";
             this.btnDetail.UseVisualStyleBackColor = false;
+            this.btnDetail.Click += new System.EventHandler(this.btnDetail_Click);
             // 
             // btnReset
             // 
