@@ -111,5 +111,12 @@ namespace Project_PCS
         {
             Application.Exit();
         }
+
+        private void btnTransBaru_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormTransaksiBaru frm = new FormTransaksiBaru();
+            frm.ShowDialog();
+        }
     }
 }

@@ -49,3 +49,6 @@ C:\Users\USER\Documents\GitHub\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Pro
 C:\Users\USER\Documents\GitHub\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.csproj.CoreCompileInputs.cache
 C:\Users\USER\Documents\GitHub\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.exe
 C:\Users\USER\Documents\GitHub\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.pdb
+A:\College\github\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.FormTransaksiBaru.resources
+A:\College\github\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.MasterBukuAdmin.resources
+A:\College\github\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.MasterPenerbitAdmin.resources
