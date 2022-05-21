@@ -29,5 +29,13 @@ namespace Project_PCS
             frm.ShowDialog();
             this.Close();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormCariBuku frm = new FormCariBuku();
+            frm.ShowDialog();
+            this.Close();
+        }
     }
 }
