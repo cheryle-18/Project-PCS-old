@@ -40,6 +40,8 @@ namespace Project_PCS
             this.lbNama = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.btnDetail = new System.Windows.Forms.Button();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.btnReset = new System.Windows.Forms.Button();
             this.cmbArah = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -160,7 +162,7 @@ namespace Project_PCS
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(19, 90);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(240, 37);
+            this.label1.Size = new System.Drawing.Size(191, 30);
             this.label1.TabIndex = 2;
             this.label1.Text = "BOOK STATION";
             // 
@@ -172,7 +174,6 @@ namespace Project_PCS
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(28, 160);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.Size = new System.Drawing.Size(1018, 442);
             this.dataGridView1.TabIndex = 1;
             // 
@@ -184,7 +185,7 @@ namespace Project_PCS
             this.lbNama.ForeColor = System.Drawing.Color.White;
             this.lbNama.Location = new System.Drawing.Point(887, 9);
             this.lbNama.Name = "lbNama";
-            this.lbNama.Size = new System.Drawing.Size(216, 30);
+            this.lbNama.Size = new System.Drawing.Size(169, 23);
             this.lbNama.TabIndex = 11;
             this.lbNama.Text = "Halo, Nama Pegawai";
             // 
@@ -194,6 +195,8 @@ namespace Project_PCS
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel2.Controls.Add(this.btnDetail);
+            this.panel2.Controls.Add(this.radioButton2);
+            this.panel2.Controls.Add(this.radioButton1);
             this.panel2.Controls.Add(this.btnReset);
             this.panel2.Controls.Add(this.cmbArah);
             this.panel2.Controls.Add(this.label4);
@@ -224,6 +227,28 @@ namespace Project_PCS
             this.btnDetail.UseVisualStyleBackColor = false;
             this.btnDetail.Click += new System.EventHandler(this.btnDetail_Click);
             // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Location = new System.Drawing.Point(858, 61);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(61, 25);
+            this.radioButton2.TabIndex = 27;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "Desc";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(800, 61);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(52, 25);
+            this.radioButton1.TabIndex = 26;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "Asc";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
             // btnReset
             // 
             this.btnReset.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -249,7 +274,7 @@ namespace Project_PCS
             "Descending"});
             this.cmbArah.Location = new System.Drawing.Point(817, 116);
             this.cmbArah.Name = "cmbArah";
-            this.cmbArah.Size = new System.Drawing.Size(128, 36);
+            this.cmbArah.Size = new System.Drawing.Size(128, 29);
             this.cmbArah.TabIndex = 24;
             // 
             // label4
@@ -257,7 +282,7 @@ namespace Project_PCS
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(24, 119);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(103, 28);
+            this.label4.Size = new System.Drawing.Size(84, 21);
             this.label4.TabIndex = 23;
             this.label4.Text = "Cari Buku :";
             // 
@@ -274,7 +299,7 @@ namespace Project_PCS
             "Stok"});
             this.cmbSort.Location = new System.Drawing.Point(643, 116);
             this.cmbSort.Name = "cmbSort";
-            this.cmbSort.Size = new System.Drawing.Size(168, 36);
+            this.cmbSort.Size = new System.Drawing.Size(168, 29);
             this.cmbSort.TabIndex = 19;
             // 
             // label2
@@ -283,7 +308,7 @@ namespace Project_PCS
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(474, 119);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(202, 28);
+            this.label2.Size = new System.Drawing.Size(163, 21);
             this.label2.TabIndex = 18;
             this.label2.Text = "Urutkan Berdasarkan :";
             // 
@@ -291,7 +316,7 @@ namespace Project_PCS
             // 
             this.tbCari.Location = new System.Drawing.Point(114, 116);
             this.tbCari.Name = "tbCari";
-            this.tbCari.Size = new System.Drawing.Size(294, 34);
+            this.tbCari.Size = new System.Drawing.Size(294, 29);
             this.tbCari.TabIndex = 15;
             this.tbCari.Text = "Kata Kunci";
             // 
@@ -301,7 +326,7 @@ namespace Project_PCS
             this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(23, 56);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(163, 37);
+            this.label3.Size = new System.Drawing.Size(127, 30);
             this.label3.TabIndex = 14;
             this.label3.Text = "Daftar Buku";
             // 
@@ -373,6 +398,8 @@ namespace Project_PCS
         private System.Windows.Forms.ComboBox cmbArah;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btnReset;
+        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.Button btnDetail;
     }
 }

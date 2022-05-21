@@ -15,19 +15,93 @@ namespace Project_PCS
         public FormDetailPreOrder()
         {
             InitializeComponent();
+
         }
 
-        private void btnDetail_Click(object sender, EventArgs e)
+        private void btnBack_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            MasterPreOrder frm = new MasterPreOrder();
-            frm.ShowDialog();
             this.Close();
         }
 
-        private void btnPOBaru_Click(object sender, EventArgs e)
+        private void btnLogout_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormLogin frm = new FormLogin();
+            frm.ShowDialog();
+        }
+        private void btnBuku_MouseHover(object sender, EventArgs e)
+        {
+            btnBuku.BackColor = Color.White;
+            btnBuku.ForeColor = Color.Navy;
+        }
+
+        private void btnBuku_MouseLeave(object sender, EventArgs e)
+        {
+            btnBuku.BackColor = Color.Navy;
+            btnBuku.ForeColor = Color.White;
+        }
+
+        private void btnTransaksi_MouseHover(object sender, EventArgs e)
+        {
+            btnTransaksi.BackColor = Color.White;
+            btnTransaksi.ForeColor = Color.Navy;
+        }
+
+        private void btnTransaksi_MouseLeave(object sender, EventArgs e)
+        {
+            btnTransaksi.BackColor = Color.Navy;
+            btnTransaksi.ForeColor = Color.White;
+        }
+
+        private void btnMember_MouseHover(object sender, EventArgs e)
+        {
+            btnMember.BackColor = Color.White;
+            btnMember.ForeColor = Color.Navy;
+        }
+
+        private void btnMember_MouseLeave(object sender, EventArgs e)
+        {
+            btnMember.BackColor = Color.Navy;
+            btnMember.ForeColor = Color.White;
+        }
+
+        private void btnLogout_MouseHover(object sender, EventArgs e)
+        {
+            btnLogout.BackColor = Color.White;
+            btnLogout.ForeColor = Color.Navy;
+        }
+
+        private void btnLogout_MouseLeave(object sender, EventArgs e)
+        {
+            btnLogout.BackColor = Color.Navy;
+            btnLogout.ForeColor = Color.White;
+        }
+
+        private void btnBuku_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MasterBuku frm = new MasterBuku();
+            frm.ShowDialog();
+        }
+
+        private void btnTransaksi_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MasterTransaksi frm = new MasterTransaksi();
+            frm.ShowDialog();
+        }
+
+        private void btnMember_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MasterMember frm = new MasterMember();
+            frm.ShowDialog();
+        }
+
+        private void FormDetailPreOrder_Load(object sender, EventArgs e)
         {
 
         }
+
     }
 }

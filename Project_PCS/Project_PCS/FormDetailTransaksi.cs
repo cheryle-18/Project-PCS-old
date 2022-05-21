@@ -20,7 +20,7 @@ namespace Project_PCS
         private void btnDetail_Click(object sender, EventArgs e)
         {
             this.Hide();
-            MasterTransaksi frm = new MasterTransaksi();
+            MasterBuku frm = new MasterBuku();
             frm.ShowDialog();
             this.Close();
         }

@@ -113,12 +113,5 @@ namespace Project_PCS
             FormDetailMember frm = new FormDetailMember();
             frm.ShowDialog();
         }
-
-        private void btnMemberBaru_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            FormMemberBaru frm = new FormMemberBaru();
-            frm.ShowDialog();
-        }
     }
 }

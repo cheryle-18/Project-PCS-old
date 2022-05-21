@@ -10,19 +10,24 @@ using System.Windows.Forms;
 
 namespace Project_PCS
 {
-    public partial class FormTambahPO : Form
+    public partial class FormTambahPreOrder : Form
     {
-        public FormTambahPO()
+        public FormTambahPreOrder()
         {
             InitializeComponent();
         }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
         private void btnLogout_Click(object sender, EventArgs e)
         {
             this.Hide();
             FormLogin frm = new FormLogin();
             frm.ShowDialog();
         }
-
         private void btnBuku_MouseHover(object sender, EventArgs e)
         {
             btnBuku.BackColor = Color.White;
@@ -47,17 +52,6 @@ namespace Project_PCS
             btnTransaksi.ForeColor = Color.White;
         }
 
-        private void btnLogout_MouseHover(object sender, EventArgs e)
-        {
-            btnLogout.BackColor = Color.White;
-            btnLogout.ForeColor = Color.Navy;
-        }
-
-        private void btnLogout_MouseLeave(object sender, EventArgs e)
-        {
-            btnLogout.BackColor = Color.Navy;
-            btnLogout.ForeColor = Color.White;
-        }
         private void btnMember_MouseHover(object sender, EventArgs e)
         {
             btnMember.BackColor = Color.White;
@@ -68,6 +62,18 @@ namespace Project_PCS
         {
             btnMember.BackColor = Color.Navy;
             btnMember.ForeColor = Color.White;
+        }
+
+        private void btnLogout_MouseHover(object sender, EventArgs e)
+        {
+            btnLogout.BackColor = Color.White;
+            btnLogout.ForeColor = Color.Navy;
+        }
+
+        private void btnLogout_MouseLeave(object sender, EventArgs e)
+        {
+            btnLogout.BackColor = Color.Navy;
+            btnLogout.ForeColor = Color.White;
         }
 
         private void btnBuku_Click(object sender, EventArgs e)
@@ -90,12 +96,5 @@ namespace Project_PCS
             MasterMember frm = new MasterMember();
             frm.ShowDialog();
         }
-
-        private void btnBack_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        
     }
 }
