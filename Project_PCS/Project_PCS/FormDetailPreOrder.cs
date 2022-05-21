@@ -10,22 +10,17 @@ using System.Windows.Forms;
 
 namespace Project_PCS
 {
-    public partial class FormDetailMember : Form
+    public partial class FormDetailPreOrder : Form
     {
-        public FormDetailMember()
+        public FormDetailPreOrder()
         {
             InitializeComponent();
-        }
-
-        private void FormDetailMember_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            Application.Exit();
         }
 
         private void btnDetail_Click(object sender, EventArgs e)
         {
             this.Hide();
-            MasterMember frm = new MasterMember();
+            MasterPreOrder frm = new MasterPreOrder();
             frm.ShowDialog();
             this.Close();
         }

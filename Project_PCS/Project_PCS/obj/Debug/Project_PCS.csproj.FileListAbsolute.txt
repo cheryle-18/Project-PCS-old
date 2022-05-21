@@ -58,3 +58,15 @@ A:\College\github\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.Mast
 A:\College\github\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.FormDetailPegawaiAdmin.resources
 A:\College\github\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.MasterPegawaiAdmin.resources
 A:\College\github\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.FormPegawaiBaruAdmin.resources
+C:\Users\LENOVO\Documents\GitHub\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.FormCariBuku.resources
+C:\Users\LENOVO\Documents\GitHub\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.FormDetailMember.resources
+C:\Users\LENOVO\Documents\GitHub\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.FormDetailPegawaiAdmin.resources
+C:\Users\LENOVO\Documents\GitHub\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.FormDetailPreOrder.resources
+C:\Users\LENOVO\Documents\GitHub\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.FormDetailTransaksi.resources
+C:\Users\LENOVO\Documents\GitHub\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.FormMemberBaru.resources
+C:\Users\LENOVO\Documents\GitHub\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.FormPegawaiBaruAdmin.resources
+C:\Users\LENOVO\Documents\GitHub\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.FormTransaksiBaru.resources
+C:\Users\LENOVO\Documents\GitHub\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.MasterBukuAdmin.resources
+C:\Users\LENOVO\Documents\GitHub\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.MasterKategoriAdmin.resources
+C:\Users\LENOVO\Documents\GitHub\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.MasterPegawaiAdmin.resources
+C:\Users\LENOVO\Documents\GitHub\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.MasterPenerbitAdmin.resources

@@ -97,5 +97,13 @@ namespace Project_PCS
             MasterMember frm = new MasterMember();
             frm.ShowDialog();
         }
+
+        private void btnDetail_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormDetailPreOrder frm = new FormDetailPreOrder();
+            frm.ShowDialog();
+            this.Close();
+        }
     }
 }
