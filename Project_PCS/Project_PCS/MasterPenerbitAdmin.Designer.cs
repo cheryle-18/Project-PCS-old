@@ -40,11 +40,12 @@ namespace Project_PCS
             this.btnPreOrder = new System.Windows.Forms.Button();
             this.btnBuku = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.lbNama = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.btnDetail = new System.Windows.Forms.Button();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.btnReset = new System.Windows.Forms.Button();
             this.cmbArah = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -53,11 +54,12 @@ namespace Project_PCS
             this.tbCari = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -237,16 +239,6 @@ namespace Project_PCS
             this.label1.TabIndex = 2;
             this.label1.Text = "BOOK STATION";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Project_PCS.Properties.Resources.book;
-            this.pictureBox1.Location = new System.Drawing.Point(36, 26);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(155, 61);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
-            // 
             // dataGridView1
             // 
             this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -277,6 +269,8 @@ namespace Project_PCS
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel2.Controls.Add(this.btnDetail);
+            this.panel2.Controls.Add(this.radioButton2);
+            this.panel2.Controls.Add(this.radioButton1);
             this.panel2.Controls.Add(this.btnReset);
             this.panel2.Controls.Add(this.cmbArah);
             this.panel2.Controls.Add(this.label4);
@@ -306,6 +300,28 @@ namespace Project_PCS
             this.btnDetail.Text = "Lihat Detail";
             this.btnDetail.UseVisualStyleBackColor = false;
             this.btnDetail.Click += new System.EventHandler(this.btnDetail_Click);
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Location = new System.Drawing.Point(858, 61);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(61, 25);
+            this.radioButton2.TabIndex = 27;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "Desc";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(800, 61);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(52, 25);
+            this.radioButton1.TabIndex = 26;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "Asc";
+            this.radioButton1.UseVisualStyleBackColor = true;
             // 
             // btnReset
             // 
@@ -350,9 +366,11 @@ namespace Project_PCS
             this.cmbSort.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbSort.FormattingEnabled = true;
             this.cmbSort.Items.AddRange(new object[] {
-            "ID",
-            "Nama",
-            "Status"});
+            "Kode",
+            "Judul",
+            "Penulis",
+            "Harga",
+            "Stok"});
             this.cmbSort.Location = new System.Drawing.Point(643, 116);
             this.cmbSort.Name = "cmbSort";
             this.cmbSort.Size = new System.Drawing.Size(168, 29);
@@ -397,6 +415,16 @@ namespace Project_PCS
             this.panel3.Size = new System.Drawing.Size(1068, 41);
             this.panel3.TabIndex = 12;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Project_PCS.Properties.Resources.book;
+            this.pictureBox1.Location = new System.Drawing.Point(36, 26);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(155, 61);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
+            // 
             // MasterPenerbitAdmin
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -413,12 +441,12 @@ namespace Project_PCS
             this.Load += new System.EventHandler(this.MasterBuku_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -442,6 +470,8 @@ namespace Project_PCS
         private System.Windows.Forms.ComboBox cmbArah;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btnReset;
+        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.Button btnDetail;
         private System.Windows.Forms.Button btnKategori;
         private System.Windows.Forms.Button btnPenerbit;

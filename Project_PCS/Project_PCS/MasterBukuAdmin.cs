@@ -104,5 +104,12 @@ namespace Project_PCS
             MasterLaporanAdmin frm = new MasterLaporanAdmin();
             frm.ShowDialog();
         }
+
+        private void btnInsert_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormTambahBukuAdmin frm = new FormTambahBukuAdmin();
+            frm.ShowDialog();
+        }
     }
 }

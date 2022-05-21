@@ -54,7 +54,7 @@ namespace Project_PCS
         private void btnDetail_Click(object sender, EventArgs e)
         {
             this.Hide();
-            FormDetailMemberAdmin frm = new FormDetailMemberAdmin();
+            FormDetailBuku frm = new FormDetailBuku();
             frm.ShowDialog();
         }
 
@@ -125,7 +125,5 @@ namespace Project_PCS
             MasterLaporanAdmin frm = new MasterLaporanAdmin();
             frm.ShowDialog();
         }
-
-
     }
 }

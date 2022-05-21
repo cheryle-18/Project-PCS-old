@@ -11,16 +11,16 @@ using System.Windows;
 
 namespace Project_PCS
 {
-    public partial class MasterPreOrderAdmin : Form
+    public partial class FormTambahBukuAdmin : Form
     {
-        public MasterPreOrderAdmin()
+        public FormTambahBukuAdmin()
         {
             InitializeComponent();
         }
 
         private void MasterBuku_Load(object sender, EventArgs e)
         {
-
+            pictureBox2.Load("https://embassybooks.in/image/catalog/Child/9781408855676.jpg");
         }
 
         private void btnLogout_Click(object sender, EventArgs e)
@@ -47,7 +47,7 @@ namespace Project_PCS
         private void btnPreOrder_Click(object sender, EventArgs e)
         {
             this.Hide();
-            MasterPreOrder frm = new MasterPreOrder();
+            MasterPreOrderAdmin frm = new MasterPreOrderAdmin();
             frm.ShowDialog();
         }
 
@@ -61,7 +61,7 @@ namespace Project_PCS
         private void btnTransaksi_Click(object sender, EventArgs e)
         {
             this.Hide();
-            MasterTransaksi frm = new MasterTransaksi();
+            MasterTransaksiAdmin frm = new MasterTransaksiAdmin();
             frm.ShowDialog();
         }
 
@@ -84,24 +84,10 @@ namespace Project_PCS
             frm.ShowDialog();
         }
 
-        private void btnBuku_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            MasterBukuAdmin frm = new MasterBukuAdmin();
-            frm.ShowDialog();
-        }
-
         private void btnKategori_Click(object sender, EventArgs e)
         {
             this.Hide();
             MasterKategoriAdmin frm = new MasterKategoriAdmin();
-            frm.ShowDialog();
-        }
-
-        private void btnTransaksi_Click_1(object sender, EventArgs e)
-        {
-            this.Hide();
-            MasterTransaksiAdmin frm = new MasterTransaksiAdmin();
             frm.ShowDialog();
         }
 
@@ -117,6 +103,22 @@ namespace Project_PCS
             this.Hide();
             MasterLaporanAdmin frm = new MasterLaporanAdmin();
             frm.ShowDialog();
+        }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MasterBukuAdmin frm = new MasterBukuAdmin();
+            frm.ShowDialog();
+            this.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MasterBukuAdmin frm = new MasterBukuAdmin();
+            frm.ShowDialog();
+            this.Close();
         }
     }
 }
