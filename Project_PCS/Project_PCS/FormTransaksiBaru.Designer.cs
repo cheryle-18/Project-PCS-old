@@ -30,6 +30,9 @@
         {
             this.lbNama = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.label23 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
@@ -74,15 +77,12 @@
             this.btnPreOrder = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnTransaksi = new System.Windows.Forms.Button();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -148,6 +148,32 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1058, 661);
             this.panel2.TabIndex = 18;
+            // 
+            // numericUpDown1
+            // 
+            this.numericUpDown1.Location = new System.Drawing.Point(232, 416);
+            this.numericUpDown1.Name = "numericUpDown1";
+            this.numericUpDown1.Size = new System.Drawing.Size(120, 30);
+            this.numericUpDown1.TabIndex = 82;
+            // 
+            // label25
+            // 
+            this.label25.BackColor = System.Drawing.Color.Transparent;
+            this.label25.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.Location = new System.Drawing.Point(202, 416);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(14, 28);
+            this.label25.TabIndex = 81;
+            this.label25.Text = ":";
+            // 
+            // label24
+            // 
+            this.label24.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.Location = new System.Drawing.Point(25, 416);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(191, 28);
+            this.label24.TabIndex = 80;
+            this.label24.Text = "Jumlah Buku";
             // 
             // button3
             // 
@@ -505,9 +531,9 @@
             this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(23, 56);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(295, 37);
+            this.label3.Size = new System.Drawing.Size(263, 37);
             this.label3.TabIndex = 14;
-            this.label3.Text = "Tambah Transaksi Baru";
+            this.label3.Text = "Form Transaksi Baru";
             // 
             // panel3
             // 
@@ -617,32 +643,6 @@
             this.btnTransaksi.Text = "Transaksi";
             this.btnTransaksi.UseVisualStyleBackColor = false;
             // 
-            // label24
-            // 
-            this.label24.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(25, 416);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(191, 28);
-            this.label24.TabIndex = 80;
-            this.label24.Text = "Jumlah Buku";
-            // 
-            // label25
-            // 
-            this.label25.BackColor = System.Drawing.Color.Transparent;
-            this.label25.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(202, 416);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(14, 28);
-            this.label25.TabIndex = 81;
-            this.label25.Text = ":";
-            // 
-            // numericUpDown1
-            // 
-            this.numericUpDown1.Location = new System.Drawing.Point(232, 416);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(120, 30);
-            this.numericUpDown1.TabIndex = 82;
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Project_PCS.Properties.Resources.book;
@@ -666,12 +666,12 @@
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormTransaksiBaru_FormClosed);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
