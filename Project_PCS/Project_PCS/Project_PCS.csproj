@@ -100,6 +100,12 @@
     <Compile Include="MasterBukuAdmin.Designer.cs">
       <DependentUpon>MasterBukuAdmin.cs</DependentUpon>
     </Compile>
+    <Compile Include="MasterKategoriAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterKategoriAdmin.Designer.cs">
+      <DependentUpon>MasterKategoriAdmin.cs</DependentUpon>
+    </Compile>
     <Compile Include="MasterMember.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -152,6 +158,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MasterBukuAdmin.resx">
       <DependentUpon>MasterBukuAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterKategoriAdmin.resx">
+      <DependentUpon>MasterKategoriAdmin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MasterMember.resx">
       <DependentUpon>MasterMember.cs</DependentUpon>

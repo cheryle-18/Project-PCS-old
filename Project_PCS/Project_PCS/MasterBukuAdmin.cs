@@ -83,5 +83,17 @@ namespace Project_PCS
             MasterPenerbitAdmin frm = new MasterPenerbitAdmin();
             frm.ShowDialog();
         }
+
+        private void btnKategori_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MasterKategoriAdmin frm = new MasterKategoriAdmin();
+            frm.ShowDialog();
+        }
+
+        private void btnBuku_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

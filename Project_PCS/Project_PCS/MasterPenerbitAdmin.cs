@@ -90,5 +90,12 @@ namespace Project_PCS
             MasterBukuAdmin frm = new MasterBukuAdmin();
             frm.ShowDialog();
         }
+
+        private void btnKategori_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MasterKategoriAdmin frm = new MasterKategoriAdmin();
+            frm.ShowDialog();
+        }
     }
 }
