@@ -101,4 +101,37 @@ C:\This PC\ISTTS\SM 4\PCS\Proyek\GitHub\Project-PCS\Project_PCS\Project_PCS\obj\
 C:\This PC\ISTTS\SM 4\PCS\Proyek\GitHub\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.MasterPenerbitAdmin.resources
 C:\This PC\ISTTS\SM 4\PCS\Proyek\GitHub\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.MasterPreOrderAdmin.resources
 C:\This PC\ISTTS\SM 4\PCS\Proyek\GitHub\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.MasterTransaksiAdmin.resources
-C:\This PC\ISTTS\SM 4\PCS\Proyek\GitHub\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.FormTambahBukuAdmin.resources
+C:\Users\USER\source\repos\cheryle-18\Project-PCS\Project_PCS\Project_PCS\bin\Debug\Project_PCS.exe.config
+C:\Users\USER\source\repos\cheryle-18\Project-PCS\Project_PCS\Project_PCS\bin\Debug\Project_PCS.exe
+C:\Users\USER\source\repos\cheryle-18\Project-PCS\Project_PCS\Project_PCS\bin\Debug\Project_PCS.pdb
+C:\Users\USER\source\repos\cheryle-18\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.csproj.AssemblyReference.cache
+C:\Users\USER\source\repos\cheryle-18\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.FormCariBuku.resources
+C:\Users\USER\source\repos\cheryle-18\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.FormDetailBuku.resources
+C:\Users\USER\source\repos\cheryle-18\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.FormDetailMember.resources
+C:\Users\USER\source\repos\cheryle-18\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.FormDetailPegawaiAdmin.resources
+C:\Users\USER\source\repos\cheryle-18\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.FormDetailPreOrder.resources
+C:\Users\USER\source\repos\cheryle-18\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.FormDetailTransaksi.resources
+C:\Users\USER\source\repos\cheryle-18\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.FormLogin.resources
+C:\Users\USER\source\repos\cheryle-18\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.FormMemberBaru.resources
+C:\Users\USER\source\repos\cheryle-18\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.FormPegawaiBaruAdmin.resources
+C:\Users\USER\source\repos\cheryle-18\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.FormTambahPO.resources
+C:\Users\USER\source\repos\cheryle-18\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.FormTransaksiBaru.resources
+C:\Users\USER\source\repos\cheryle-18\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.MasterBuku.resources
+C:\Users\USER\source\repos\cheryle-18\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.MasterBukuAdmin.resources
+C:\Users\USER\source\repos\cheryle-18\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.MasterKategoriAdmin.resources
+C:\Users\USER\source\repos\cheryle-18\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.MasterLaporanAdmin.resources
+C:\Users\USER\source\repos\cheryle-18\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.MasterMember.resources
+C:\Users\USER\source\repos\cheryle-18\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.MasterMemberAdmin.resources
+C:\Users\USER\source\repos\cheryle-18\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.MasterPegawaiAdmin.resources
+C:\Users\USER\source\repos\cheryle-18\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.MasterPenerbitAdmin.resources
+C:\Users\USER\source\repos\cheryle-18\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.MasterPreOrder.resources
+C:\Users\USER\source\repos\cheryle-18\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.MasterPreOrderAdmin.resources
+C:\Users\USER\source\repos\cheryle-18\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.MasterTransaksi.resources
+C:\Users\USER\source\repos\cheryle-18\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.MasterTransaksiAdmin.resources
+C:\Users\USER\source\repos\cheryle-18\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.Properties.Resources.resources
+C:\Users\USER\source\repos\cheryle-18\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.csproj.GenerateResource.cache
+C:\Users\USER\source\repos\cheryle-18\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\cheryle-18\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.exe
+C:\Users\USER\source\repos\cheryle-18\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.pdb
+C:\Users\USER\source\repos\cheryle-18\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.FormDetailMemberAdmin.resources
+C:\Users\USER\source\repos\cheryle-18\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.FormDetailPreorderAdmin.resources

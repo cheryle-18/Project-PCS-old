@@ -24,5 +24,10 @@ namespace Project_PCS
             frm.ShowDialog();
             this.Close();
         }
+
+        private void btnPOBaru_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -64,17 +64,35 @@
     <Compile Include="FormDetailMember.Designer.cs">
       <DependentUpon>FormDetailMember.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormDetailMemberAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDetailMemberAdmin.Designer.cs">
+      <DependentUpon>FormDetailMemberAdmin.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormDetailPegawaiAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormDetailPegawaiAdmin.Designer.cs">
       <DependentUpon>FormDetailPegawaiAdmin.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormDetailPenerbitAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDetailPenerbitAdmin.Designer.cs">
+      <DependentUpon>FormDetailPenerbitAdmin.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormDetailPreOrder.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormDetailPreOrder.Designer.cs">
       <DependentUpon>FormDetailPreOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDetailPreorderAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDetailPreorderAdmin.Designer.cs">
+      <DependentUpon>FormDetailPreorderAdmin.cs</DependentUpon>
     </Compile>
     <Compile Include="FormDetailTransaksi.cs">
       <SubType>Form</SubType>
@@ -100,11 +118,11 @@
     <Compile Include="FormPegawaiBaruAdmin.Designer.cs">
       <DependentUpon>FormPegawaiBaruAdmin.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormTambahBukuAdmin.cs">
+    <Compile Include="FormTambahPO.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormTambahBukuAdmin.designer.cs">
-      <DependentUpon>FormTambahBukuAdmin.cs</DependentUpon>
+    <Compile Include="FormTambahPO.Designer.cs">
+      <DependentUpon>FormTambahPO.cs</DependentUpon>
     </Compile>
     <Compile Include="FormTransaksiBaru.cs">
       <SubType>Form</SubType>
@@ -195,11 +213,20 @@
     <EmbeddedResource Include="FormDetailMember.resx">
       <DependentUpon>FormDetailMember.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormDetailMemberAdmin.resx">
+      <DependentUpon>FormDetailMemberAdmin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormDetailPegawaiAdmin.resx">
       <DependentUpon>FormDetailPegawaiAdmin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormDetailPenerbitAdmin.resx">
+      <DependentUpon>FormDetailPenerbitAdmin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormDetailPreOrder.resx">
       <DependentUpon>FormDetailPreOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDetailPreorderAdmin.resx">
+      <DependentUpon>FormDetailPreorderAdmin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormDetailTransaksi.resx">
       <DependentUpon>FormDetailTransaksi.cs</DependentUpon>
@@ -213,8 +240,8 @@
     <EmbeddedResource Include="FormPegawaiBaruAdmin.resx">
       <DependentUpon>FormPegawaiBaruAdmin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormTambahBukuAdmin.resx">
-      <DependentUpon>FormTambahBukuAdmin.cs</DependentUpon>
+    <EmbeddedResource Include="FormTambahPO.resx">
+      <DependentUpon>FormTambahPO.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormTransaksiBaru.resx">
       <DependentUpon>FormTransaksiBaru.cs</DependentUpon>

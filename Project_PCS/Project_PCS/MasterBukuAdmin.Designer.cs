@@ -54,7 +54,6 @@ namespace Project_PCS
             this.tbCari = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.btnInsert = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -268,7 +267,6 @@ namespace Project_PCS
             this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel2.Controls.Add(this.btnInsert);
             this.panel2.Controls.Add(this.btnDetail);
             this.panel2.Controls.Add(this.radioButton2);
             this.panel2.Controls.Add(this.radioButton1);
@@ -416,22 +414,6 @@ namespace Project_PCS
             this.panel3.Size = new System.Drawing.Size(1068, 41);
             this.panel3.TabIndex = 12;
             // 
-            // btnInsert
-            // 
-            this.btnInsert.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnInsert.BackColor = System.Drawing.Color.Navy;
-            this.btnInsert.FlatAppearance.BorderSize = 0;
-            this.btnInsert.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnInsert.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnInsert.ForeColor = System.Drawing.Color.White;
-            this.btnInsert.Location = new System.Drawing.Point(721, 611);
-            this.btnInsert.Name = "btnInsert";
-            this.btnInsert.Size = new System.Drawing.Size(153, 38);
-            this.btnInsert.TabIndex = 29;
-            this.btnInsert.Text = "Insert Buku";
-            this.btnInsert.UseVisualStyleBackColor = false;
-            this.btnInsert.Click += new System.EventHandler(this.btnInsert_Click);
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Project_PCS.Properties.Resources.book;
@@ -496,6 +478,5 @@ namespace Project_PCS
         private System.Windows.Forms.Button btnLaporan;
         private System.Windows.Forms.Button btnMember;
         private System.Windows.Forms.Button btnTransaksi;
-        private System.Windows.Forms.Button btnInsert;
     }
 }
