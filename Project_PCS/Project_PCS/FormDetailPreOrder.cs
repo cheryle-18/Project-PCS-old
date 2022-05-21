@@ -34,6 +34,9 @@ namespace Project_PCS
             frm.ShowDialog();
             this.Close();
         }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     }
 }

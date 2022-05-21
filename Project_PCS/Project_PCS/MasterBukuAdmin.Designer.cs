@@ -55,7 +55,10 @@ namespace Project_PCS
             this.label3 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
             this.panel1.SuspendLayout();
@@ -327,6 +330,7 @@ namespace Project_PCS
             this.btnDetail.Click += new System.EventHandler(this.btnDetail_Click);
             // 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
@@ -349,6 +353,8 @@ namespace Project_PCS
             this.radioButton1.Text = "Asc";
             this.radioButton1.UseVisualStyleBackColor = true;
             // 
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
             // btnReset
@@ -444,6 +450,7 @@ namespace Project_PCS
             this.panel3.TabIndex = 12;
             // 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Project_PCS.Properties.Resources.book;
@@ -454,6 +461,8 @@ namespace Project_PCS
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
             // MasterBukuAdmin

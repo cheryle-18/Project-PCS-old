@@ -76,6 +76,10 @@
     <Compile Include="FormDetailMember.Designer.cs">
       <DependentUpon>FormDetailMember.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormDetailPegawaiAdmin.cs" />
+    <Compile Include="FormDetailPegawaiAdmin.Designer.cs">
+      <DependentUpon>FormDetailPegawaiAdmin.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormDetailPreOrder.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,11 +104,7 @@
     <Compile Include="FormMemberBaru.Designer.cs">
       <DependentUpon>FormMemberBaru.cs</DependentUpon>
     </Compile>
-<<<<<<< Updated upstream
-=======
-    <Compile Include="FormPegawaiBaruAdmin.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="FormPegawaiBaruAdmin.cs" />
     <Compile Include="FormPegawaiBaruAdmin.Designer.cs">
       <DependentUpon>FormPegawaiBaruAdmin.cs</DependentUpon>
     </Compile>
@@ -120,13 +120,10 @@
     <Compile Include="FormProsesPreOrder.Designer.cs">
       <DependentUpon>FormProsesPreOrder.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormTambahBukuAdmin.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="FormTambahBukuAdmin.cs" />
     <Compile Include="FormTambahBukuAdmin.designer.cs">
       <DependentUpon>FormTambahBukuAdmin.cs</DependentUpon>
     </Compile>
->>>>>>> Stashed changes
     <Compile Include="FormTransaksiBaru.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -142,14 +139,18 @@
     <Compile Include="MasterBukuAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MasterBukuAdmin.Designer.cs">
+    <Compile Include="MasterBukuAdmin.designer.cs">
       <DependentUpon>MasterBukuAdmin.cs</DependentUpon>
     </Compile>
     <Compile Include="MasterKategoriAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MasterKategoriAdmin.Designer.cs">
+    <Compile Include="MasterKategoriAdmin.designer.cs">
       <DependentUpon>MasterKategoriAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasterLaporanAdmin.cs" />
+    <Compile Include="MasterLaporanAdmin.designer.cs">
+      <DependentUpon>MasterLaporanAdmin.cs</DependentUpon>
     </Compile>
     <Compile Include="MasterMember.cs">
       <SubType>Form</SubType>
@@ -157,10 +158,18 @@
     <Compile Include="MasterMember.Designer.cs">
       <DependentUpon>MasterMember.cs</DependentUpon>
     </Compile>
+    <Compile Include="MasterMemberAdmin.cs" />
+    <Compile Include="MasterMemberAdmin.designer.cs">
+      <DependentUpon>MasterMemberAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPegawaiAdmin.cs" />
+    <Compile Include="MasterPegawaiAdmin.designer.cs">
+      <DependentUpon>MasterPegawaiAdmin.cs</DependentUpon>
+    </Compile>
     <Compile Include="MasterPenerbitAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MasterPenerbitAdmin.Designer.cs">
+    <Compile Include="MasterPenerbitAdmin.designer.cs">
       <DependentUpon>MasterPenerbitAdmin.cs</DependentUpon>
     </Compile>
     <Compile Include="MasterPreOrder.cs">
@@ -169,11 +178,19 @@
     <Compile Include="MasterPreOrder.Designer.cs">
       <DependentUpon>MasterPreOrder.cs</DependentUpon>
     </Compile>
+    <Compile Include="MasterPreOrderAdmin.cs" />
+    <Compile Include="MasterPreOrderAdmin.designer.cs">
+      <DependentUpon>MasterPreOrderAdmin.cs</DependentUpon>
+    </Compile>
     <Compile Include="MasterTransaksi.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MasterTransaksi.Designer.cs">
       <DependentUpon>MasterTransaksi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasterTransaksiAdmin.cs" />
+    <Compile Include="MasterTransaksiAdmin.designer.cs">
+      <DependentUpon>MasterTransaksiAdmin.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -192,6 +209,9 @@
     <EmbeddedResource Include="FormDetailMember.resx">
       <DependentUpon>FormDetailMember.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormDetailPegawaiAdmin.resx">
+      <DependentUpon>FormDetailPegawaiAdmin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormDetailPreOrder.resx">
       <DependentUpon>FormDetailPreOrder.cs</DependentUpon>
     </EmbeddedResource>
@@ -204,8 +224,6 @@
     <EmbeddedResource Include="FormMemberBaru.resx">
       <DependentUpon>FormMemberBaru.cs</DependentUpon>
     </EmbeddedResource>
-<<<<<<< Updated upstream
-=======
     <EmbeddedResource Include="FormPegawaiBaruAdmin.resx">
       <DependentUpon>FormPegawaiBaruAdmin.cs</DependentUpon>
     </EmbeddedResource>
@@ -218,7 +236,6 @@
     <EmbeddedResource Include="FormTambahBukuAdmin.resx">
       <DependentUpon>FormTambahBukuAdmin.cs</DependentUpon>
     </EmbeddedResource>
->>>>>>> Stashed changes
     <EmbeddedResource Include="FormTransaksiBaru.resx">
       <DependentUpon>FormTransaksiBaru.cs</DependentUpon>
     </EmbeddedResource>
@@ -231,8 +248,17 @@
     <EmbeddedResource Include="MasterKategoriAdmin.resx">
       <DependentUpon>MasterKategoriAdmin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MasterLaporanAdmin.resx">
+      <DependentUpon>MasterLaporanAdmin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MasterMember.resx">
       <DependentUpon>MasterMember.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterMemberAdmin.resx">
+      <DependentUpon>MasterMemberAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterPegawaiAdmin.resx">
+      <DependentUpon>MasterPegawaiAdmin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MasterPenerbitAdmin.resx">
       <DependentUpon>MasterPenerbitAdmin.cs</DependentUpon>
@@ -240,8 +266,14 @@
     <EmbeddedResource Include="MasterPreOrder.resx">
       <DependentUpon>MasterPreOrder.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MasterPreOrderAdmin.resx">
+      <DependentUpon>MasterPreOrderAdmin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MasterTransaksi.resx">
       <DependentUpon>MasterTransaksi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterTransaksiAdmin.resx">
+      <DependentUpon>MasterTransaksiAdmin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -60,6 +60,7 @@ namespace Project_PCS
             this.panel3 = new System.Windows.Forms.Panel();
             this.lbNama = new System.Windows.Forms.Label();
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.label10 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -76,6 +77,8 @@ namespace Project_PCS
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
             this.panel1.SuspendLayout();
@@ -427,6 +430,7 @@ namespace Project_PCS
             this.lbNama.Text = "Halo, Nama Pegawai";
             // 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             // label10
             // 
             this.label10.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -554,6 +558,8 @@ namespace Project_PCS
             this.textBox4.Size = new System.Drawing.Size(213, 22);
             this.textBox4.TabIndex = 74;
             // 
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
             // FormMemberBaru

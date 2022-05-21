@@ -110,5 +110,13 @@ namespace Project_PCS
             frm.ShowDialog();
             this.Close();
         }
+
+        private void btnPOBaru_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormPreOrderBaru frm = new FormPreOrderBaru();
+            frm.ShowDialog();
+            this.Close();
+        }
     }
 }

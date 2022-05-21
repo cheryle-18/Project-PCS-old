@@ -31,7 +31,10 @@ namespace Project_PCS
         {
             this.panel2 = new System.Windows.Forms.Panel();
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label17 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
@@ -62,6 +65,7 @@ namespace Project_PCS
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -75,6 +79,8 @@ namespace Project_PCS
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
 =======
+=======
+>>>>>>> Stashed changes
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
@@ -82,6 +88,9 @@ namespace Project_PCS
             this.label22 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -97,7 +106,10 @@ namespace Project_PCS
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel2.BackColor = System.Drawing.Color.White;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
             this.panel2.Controls.Add(this.label24);
             this.panel2.Controls.Add(this.label23);
             this.panel2.Controls.Add(this.label22);
@@ -131,7 +143,10 @@ namespace Project_PCS
             this.panel2.TabIndex = 20;
             // 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
             // dataGridView1
             // 
             this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -458,6 +473,7 @@ namespace Project_PCS
             this.pictureBox1.TabStop = false;
             // 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             // label2
             // 
             this.label2.AutoSize = true;
@@ -584,6 +600,8 @@ namespace Project_PCS
             this.label14.TabIndex = 54;
             this.label14.Text = "Aktif";
 =======
+=======
+>>>>>>> Stashed changes
             // label18
             // 
             this.label18.AutoSize = true;
@@ -653,6 +671,9 @@ namespace Project_PCS
             this.label24.Size = new System.Drawing.Size(14, 21);
             this.label24.TabIndex = 65;
             this.label24.Text = ":";
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
             // 
             // FormDetailMember
@@ -717,6 +738,9 @@ namespace Project_PCS
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label18;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     }
 }

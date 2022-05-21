@@ -263,6 +263,7 @@ namespace Project_PCS
             this.panel2.TabIndex = 16;
             // 
             // label35
+<<<<<<< Updated upstream
             // 
             this.label35.AutoSize = true;
             this.label35.BackColor = System.Drawing.Color.White;
@@ -383,6 +384,128 @@ namespace Project_PCS
             this.label30.TabIndex = 77;
             this.label30.Text = ":";
             // 
+=======
+            // 
+            this.label35.AutoSize = true;
+            this.label35.BackColor = System.Drawing.Color.White;
+            this.label35.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label35.Location = new System.Drawing.Point(148, 253);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(14, 21);
+            this.label35.TabIndex = 87;
+            this.label35.Text = ":";
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.BackColor = System.Drawing.Color.White;
+            this.label34.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label34.Location = new System.Drawing.Point(148, 222);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(14, 21);
+            this.label34.TabIndex = 86;
+            this.label34.Text = ":";
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.BackColor = System.Drawing.Color.White;
+            this.label33.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.Location = new System.Drawing.Point(148, 191);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(14, 21);
+            this.label33.TabIndex = 85;
+            this.label33.Text = ":";
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.BackColor = System.Drawing.Color.White;
+            this.label32.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.Location = new System.Drawing.Point(148, 163);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(14, 21);
+            this.label32.TabIndex = 84;
+            this.label32.Text = ":";
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.BackColor = System.Drawing.Color.White;
+            this.label31.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.Location = new System.Drawing.Point(148, 133);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(14, 21);
+            this.label31.TabIndex = 83;
+            this.label31.Text = ":";
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.BackColor = System.Drawing.Color.White;
+            this.label29.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.Location = new System.Drawing.Point(148, 103);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(14, 21);
+            this.label29.TabIndex = 82;
+            this.label29.Text = ":";
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.BackColor = System.Drawing.Color.White;
+            this.label28.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.Location = new System.Drawing.Point(595, 191);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(14, 21);
+            this.label28.TabIndex = 81;
+            this.label28.Text = ":";
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.BackColor = System.Drawing.Color.White;
+            this.label27.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.Location = new System.Drawing.Point(595, 163);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(14, 21);
+            this.label27.TabIndex = 80;
+            this.label27.Text = ":";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.BackColor = System.Drawing.Color.White;
+            this.label26.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.Location = new System.Drawing.Point(595, 133);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(14, 21);
+            this.label26.TabIndex = 79;
+            this.label26.Text = ":";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.BackColor = System.Drawing.Color.White;
+            this.label25.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.Location = new System.Drawing.Point(595, 103);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(14, 21);
+            this.label25.TabIndex = 78;
+            this.label25.Text = ":";
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.BackColor = System.Drawing.Color.White;
+            this.label30.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.Location = new System.Drawing.Point(595, 222);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(14, 21);
+            this.label30.TabIndex = 77;
+            this.label30.Text = ":";
+            // 
+>>>>>>> Stashed changes
             // label23
             // 
             this.label23.AutoSize = true;
@@ -660,6 +783,40 @@ namespace Project_PCS
             this.btnBack.Click += new System.EventHandler(this.btnDetail_Click);
             // 
             // panel3
+<<<<<<< Updated upstream
+=======
+            // 
+            this.panel3.BackColor = System.Drawing.Color.Navy;
+            this.panel3.Controls.Add(this.lbNama);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(1058, 41);
+            this.panel3.TabIndex = 12;
+            // 
+            // lbNama
+            // 
+            this.lbNama.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbNama.AutoSize = true;
+            this.lbNama.Font = new System.Drawing.Font("Segoe UI Semibold", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbNama.ForeColor = System.Drawing.Color.White;
+            this.lbNama.Location = new System.Drawing.Point(877, 9);
+            this.lbNama.Name = "lbNama";
+            this.lbNama.Size = new System.Drawing.Size(169, 23);
+            this.lbNama.TabIndex = 11;
+            this.lbNama.Text = "Halo, Nama Pegawai";
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.Gainsboro;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(28, 345);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(1018, 257);
+            this.dataGridView1.TabIndex = 1;
+>>>>>>> Stashed changes
             // 
             this.panel3.BackColor = System.Drawing.Color.Navy;
             this.panel3.Controls.Add(this.lbNama);
