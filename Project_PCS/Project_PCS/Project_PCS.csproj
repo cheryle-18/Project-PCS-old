@@ -100,6 +100,12 @@
     <Compile Include="FormPegawaiBaruAdmin.Designer.cs">
       <DependentUpon>FormPegawaiBaruAdmin.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormTambahBukuAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTambahBukuAdmin.designer.cs">
+      <DependentUpon>FormTambahBukuAdmin.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormTransaksiBaru.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -206,6 +212,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormPegawaiBaruAdmin.resx">
       <DependentUpon>FormPegawaiBaruAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTambahBukuAdmin.resx">
+      <DependentUpon>FormTambahBukuAdmin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormTransaksiBaru.resx">
       <DependentUpon>FormTransaksiBaru.cs</DependentUpon>

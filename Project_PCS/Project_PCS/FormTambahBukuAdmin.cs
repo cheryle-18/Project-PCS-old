@@ -11,16 +11,16 @@ using System.Windows;
 
 namespace Project_PCS
 {
-    public partial class MasterBukuAdmin : Form
+    public partial class FormTambahBukuAdmin : Form
     {
-        public MasterBukuAdmin()
+        public FormTambahBukuAdmin()
         {
             InitializeComponent();
         }
 
         private void MasterBuku_Load(object sender, EventArgs e)
         {
-            
+            pictureBox2.Load("https://embassybooks.in/image/catalog/Child/9781408855676.jpg");
         }
 
         private void btnLogout_Click(object sender, EventArgs e)
@@ -105,11 +105,20 @@ namespace Project_PCS
             frm.ShowDialog();
         }
 
-        private void btnInsert_Click(object sender, EventArgs e)
+        private void btnBack_Click(object sender, EventArgs e)
         {
             this.Hide();
-            FormTambahBukuAdmin frm = new FormTambahBukuAdmin();
+            MasterBukuAdmin frm = new MasterBukuAdmin();
             frm.ShowDialog();
+            this.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MasterBukuAdmin frm = new MasterBukuAdmin();
+            frm.ShowDialog();
+            this.Close();
         }
     }
 }

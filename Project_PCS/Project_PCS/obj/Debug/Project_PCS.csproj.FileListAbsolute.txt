@@ -101,3 +101,4 @@ C:\This PC\ISTTS\SM 4\PCS\Proyek\GitHub\Project-PCS\Project_PCS\Project_PCS\obj\
 C:\This PC\ISTTS\SM 4\PCS\Proyek\GitHub\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.MasterPenerbitAdmin.resources
 C:\This PC\ISTTS\SM 4\PCS\Proyek\GitHub\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.MasterPreOrderAdmin.resources
 C:\This PC\ISTTS\SM 4\PCS\Proyek\GitHub\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.MasterTransaksiAdmin.resources
+C:\This PC\ISTTS\SM 4\PCS\Proyek\GitHub\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.FormTambahBukuAdmin.resources
