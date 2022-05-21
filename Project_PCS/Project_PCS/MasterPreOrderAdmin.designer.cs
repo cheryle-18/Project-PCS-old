@@ -1,7 +1,7 @@
 ﻿
 namespace Project_PCS
 {
-    partial class MasterBukuAdmin
+    partial class MasterPreOrderAdmin
     {
         /// <summary>
         /// Required designer variable.
@@ -85,6 +85,7 @@ namespace Project_PCS
             // 
             // btnTransaksi
             // 
+            this.btnTransaksi.BackColor = System.Drawing.Color.Navy;
             this.btnTransaksi.FlatAppearance.BorderSize = 0;
             this.btnTransaksi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTransaksi.Font = new System.Drawing.Font("Segoe UI Semibold", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -94,8 +95,8 @@ namespace Project_PCS
             this.btnTransaksi.Size = new System.Drawing.Size(226, 43);
             this.btnTransaksi.TabIndex = 13;
             this.btnTransaksi.Text = "Transaksi";
-            this.btnTransaksi.UseVisualStyleBackColor = true;
-            this.btnTransaksi.Click += new System.EventHandler(this.btnTransaksi_Click);
+            this.btnTransaksi.UseVisualStyleBackColor = false;
+            this.btnTransaksi.Click += new System.EventHandler(this.btnTransaksi_Click_1);
             this.btnTransaksi.MouseLeave += new System.EventHandler(this.btn_MouseLeave);
             this.btnTransaksi.MouseHover += new System.EventHandler(this.btn_MouseHover);
             // 
@@ -133,6 +134,7 @@ namespace Project_PCS
             // 
             // btnKategori
             // 
+            this.btnKategori.BackColor = System.Drawing.Color.Navy;
             this.btnKategori.FlatAppearance.BorderSize = 0;
             this.btnKategori.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnKategori.Font = new System.Drawing.Font("Segoe UI Semibold", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -142,13 +144,14 @@ namespace Project_PCS
             this.btnKategori.Size = new System.Drawing.Size(226, 43);
             this.btnKategori.TabIndex = 10;
             this.btnKategori.Text = "Kategori";
-            this.btnKategori.UseVisualStyleBackColor = true;
+            this.btnKategori.UseVisualStyleBackColor = false;
             this.btnKategori.Click += new System.EventHandler(this.btnKategori_Click);
             this.btnKategori.MouseLeave += new System.EventHandler(this.btn_MouseLeave);
             this.btnKategori.MouseHover += new System.EventHandler(this.btn_MouseHover);
             // 
             // btnPenerbit
             // 
+            this.btnPenerbit.BackColor = System.Drawing.Color.Navy;
             this.btnPenerbit.FlatAppearance.BorderSize = 0;
             this.btnPenerbit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPenerbit.Font = new System.Drawing.Font("Segoe UI Semibold", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -158,7 +161,7 @@ namespace Project_PCS
             this.btnPenerbit.Size = new System.Drawing.Size(226, 43);
             this.btnPenerbit.TabIndex = 9;
             this.btnPenerbit.Text = "Penerbit";
-            this.btnPenerbit.UseVisualStyleBackColor = true;
+            this.btnPenerbit.UseVisualStyleBackColor = false;
             this.btnPenerbit.Click += new System.EventHandler(this.btnPenerbit_Click);
             this.btnPenerbit.MouseLeave += new System.EventHandler(this.btn_MouseLeave);
             this.btnPenerbit.MouseHover += new System.EventHandler(this.btn_MouseHover);
@@ -199,33 +202,34 @@ namespace Project_PCS
             // 
             // btnPreOrder
             // 
+            this.btnPreOrder.BackColor = System.Drawing.Color.White;
             this.btnPreOrder.FlatAppearance.BorderSize = 0;
             this.btnPreOrder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPreOrder.Font = new System.Drawing.Font("Segoe UI Semibold", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPreOrder.ForeColor = System.Drawing.Color.White;
+            this.btnPreOrder.ForeColor = System.Drawing.Color.Navy;
             this.btnPreOrder.Location = new System.Drawing.Point(0, 336);
             this.btnPreOrder.Name = "btnPreOrder";
             this.btnPreOrder.Size = new System.Drawing.Size(226, 43);
             this.btnPreOrder.TabIndex = 6;
             this.btnPreOrder.Text = "Pre-Order";
-            this.btnPreOrder.UseVisualStyleBackColor = true;
-            this.btnPreOrder.Click += new System.EventHandler(this.btnPreOrder_Click);
-            this.btnPreOrder.MouseLeave += new System.EventHandler(this.btn_MouseLeave);
-            this.btnPreOrder.MouseHover += new System.EventHandler(this.btn_MouseHover);
+            this.btnPreOrder.UseVisualStyleBackColor = false;
             // 
             // btnBuku
             // 
-            this.btnBuku.BackColor = System.Drawing.Color.White;
+            this.btnBuku.BackColor = System.Drawing.Color.Navy;
             this.btnBuku.FlatAppearance.BorderSize = 0;
             this.btnBuku.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBuku.Font = new System.Drawing.Font("Segoe UI Semibold", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBuku.ForeColor = System.Drawing.Color.Navy;
+            this.btnBuku.ForeColor = System.Drawing.Color.White;
             this.btnBuku.Location = new System.Drawing.Point(0, 168);
             this.btnBuku.Name = "btnBuku";
             this.btnBuku.Size = new System.Drawing.Size(226, 43);
             this.btnBuku.TabIndex = 4;
             this.btnBuku.Text = "Buku";
             this.btnBuku.UseVisualStyleBackColor = false;
+            this.btnBuku.Click += new System.EventHandler(this.btnBuku_Click);
+            this.btnBuku.MouseLeave += new System.EventHandler(this.btn_MouseLeave);
+            this.btnBuku.MouseHover += new System.EventHandler(this.btn_MouseHover);
             // 
             // label1
             // 
@@ -355,9 +359,9 @@ namespace Project_PCS
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(24, 119);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(84, 21);
+            this.label4.Size = new System.Drawing.Size(45, 21);
             this.label4.TabIndex = 23;
-            this.label4.Text = "Cari Buku :";
+            this.label4.Text = "Cari :";
             // 
             // cmbSort
             // 
@@ -387,7 +391,7 @@ namespace Project_PCS
             // 
             // tbCari
             // 
-            this.tbCari.Location = new System.Drawing.Point(114, 116);
+            this.tbCari.Location = new System.Drawing.Point(75, 115);
             this.tbCari.Name = "tbCari";
             this.tbCari.Size = new System.Drawing.Size(294, 29);
             this.tbCari.TabIndex = 15;
@@ -399,9 +403,9 @@ namespace Project_PCS
             this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(23, 56);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(127, 30);
+            this.label3.Size = new System.Drawing.Size(174, 30);
             this.label3.TabIndex = 14;
-            this.label3.Text = "Daftar Buku";
+            this.label3.Text = "Daftar Pre-Order";
             // 
             // panel3
             // 
@@ -424,7 +428,7 @@ namespace Project_PCS
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
-            // MasterBukuAdmin
+            // MasterPreOrderAdmin
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.White;
@@ -432,9 +436,9 @@ namespace Project_PCS
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
             this.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Name = "MasterBukuAdmin";
+            this.Name = "MasterPreOrderAdmin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "MasterBukuAdmin";
+            this.Text = "MasterPreOrderAdmin";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MasterBuku_FormClosed);
             this.Load += new System.EventHandler(this.MasterBuku_Load);

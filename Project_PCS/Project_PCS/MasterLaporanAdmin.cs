@@ -11,9 +11,9 @@ using System.Windows;
 
 namespace Project_PCS
 {
-    public partial class MasterKategoriAdmin : Form
+    public partial class MasterLaporanAdmin : Form
     {
-        public MasterKategoriAdmin()
+        public MasterLaporanAdmin()
         {
             InitializeComponent();
         }
@@ -47,7 +47,7 @@ namespace Project_PCS
         private void btnPreOrder_Click(object sender, EventArgs e)
         {
             this.Hide();
-            MasterPreOrderAdmin frm = new MasterPreOrderAdmin();
+            MasterPreOrder frm = new MasterPreOrder();
             frm.ShowDialog();
         }
 
@@ -61,14 +61,14 @@ namespace Project_PCS
         private void btnTransaksi_Click(object sender, EventArgs e)
         {
             this.Hide();
-            MasterTransaksiAdmin frm = new MasterTransaksiAdmin();
+            MasterTransaksi frm = new MasterTransaksi();
             frm.ShowDialog();
         }
 
         private void btnMember_Click(object sender, EventArgs e)
         {
             this.Hide();
-            MasterMemberAdmin frm = new MasterMemberAdmin();
+            MasterMember frm = new MasterMember();
             frm.ShowDialog();
         }
 
@@ -91,6 +91,27 @@ namespace Project_PCS
             frm.ShowDialog();
         }
 
+        private void btnKategori_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MasterKategoriAdmin frm = new MasterKategoriAdmin();
+            frm.ShowDialog();
+        }
+
+        private void btnTransaksi_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            MasterTransaksiAdmin frm = new MasterTransaksiAdmin();
+            frm.ShowDialog();
+        }
+
+        private void btnPreOrder_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            MasterPreOrderAdmin frm = new MasterPreOrderAdmin();
+            frm.ShowDialog();
+        }
+
         private void btnPegawai_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -98,10 +119,10 @@ namespace Project_PCS
             frm.ShowDialog();
         }
 
-        private void btnLaporan_Click(object sender, EventArgs e)
+        private void btnMember_Click_1(object sender, EventArgs e)
         {
             this.Hide();
-            MasterLaporanAdmin frm = new MasterLaporanAdmin();
+            MasterMemberAdmin frm = new MasterMemberAdmin();
             frm.ShowDialog();
         }
     }

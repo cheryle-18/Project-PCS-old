@@ -115,14 +115,20 @@
     <Compile Include="MasterBukuAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MasterBukuAdmin.Designer.cs">
+    <Compile Include="MasterBukuAdmin.designer.cs">
       <DependentUpon>MasterBukuAdmin.cs</DependentUpon>
     </Compile>
     <Compile Include="MasterKategoriAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MasterKategoriAdmin.Designer.cs">
+    <Compile Include="MasterKategoriAdmin.designer.cs">
       <DependentUpon>MasterKategoriAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasterLaporanAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterLaporanAdmin.designer.cs">
+      <DependentUpon>MasterLaporanAdmin.cs</DependentUpon>
     </Compile>
     <Compile Include="MasterMember.cs">
       <SubType>Form</SubType>
@@ -130,16 +136,22 @@
     <Compile Include="MasterMember.Designer.cs">
       <DependentUpon>MasterMember.cs</DependentUpon>
     </Compile>
+    <Compile Include="MasterMemberAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterMemberAdmin.designer.cs">
+      <DependentUpon>MasterMemberAdmin.cs</DependentUpon>
+    </Compile>
     <Compile Include="MasterPegawaiAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MasterPegawaiAdmin.Designer.cs">
+    <Compile Include="MasterPegawaiAdmin.designer.cs">
       <DependentUpon>MasterPegawaiAdmin.cs</DependentUpon>
     </Compile>
     <Compile Include="MasterPenerbitAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MasterPenerbitAdmin.Designer.cs">
+    <Compile Include="MasterPenerbitAdmin.designer.cs">
       <DependentUpon>MasterPenerbitAdmin.cs</DependentUpon>
     </Compile>
     <Compile Include="MasterPreOrder.cs">
@@ -148,11 +160,23 @@
     <Compile Include="MasterPreOrder.Designer.cs">
       <DependentUpon>MasterPreOrder.cs</DependentUpon>
     </Compile>
+    <Compile Include="MasterPreOrderAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterPreOrderAdmin.designer.cs">
+      <DependentUpon>MasterPreOrderAdmin.cs</DependentUpon>
+    </Compile>
     <Compile Include="MasterTransaksi.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MasterTransaksi.Designer.cs">
       <DependentUpon>MasterTransaksi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasterTransaksiAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterTransaksiAdmin.designer.cs">
+      <DependentUpon>MasterTransaksiAdmin.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -195,8 +219,14 @@
     <EmbeddedResource Include="MasterKategoriAdmin.resx">
       <DependentUpon>MasterKategoriAdmin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MasterLaporanAdmin.resx">
+      <DependentUpon>MasterLaporanAdmin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MasterMember.resx">
       <DependentUpon>MasterMember.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterMemberAdmin.resx">
+      <DependentUpon>MasterMemberAdmin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MasterPegawaiAdmin.resx">
       <DependentUpon>MasterPegawaiAdmin.cs</DependentUpon>
@@ -207,8 +237,14 @@
     <EmbeddedResource Include="MasterPreOrder.resx">
       <DependentUpon>MasterPreOrder.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MasterPreOrderAdmin.resx">
+      <DependentUpon>MasterPreOrderAdmin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MasterTransaksi.resx">
       <DependentUpon>MasterTransaksi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterTransaksiAdmin.resx">
+      <DependentUpon>MasterTransaksiAdmin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

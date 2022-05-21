@@ -47,7 +47,7 @@ namespace Project_PCS
         private void btnPreOrder_Click(object sender, EventArgs e)
         {
             this.Hide();
-            MasterPreOrder frm = new MasterPreOrder();
+            MasterPreOrderAdmin frm = new MasterPreOrderAdmin();
             frm.ShowDialog();
         }
 
@@ -61,14 +61,14 @@ namespace Project_PCS
         private void btnTransaksi_Click(object sender, EventArgs e)
         {
             this.Hide();
-            MasterTransaksi frm = new MasterTransaksi();
+            MasterTransaksiAdmin frm = new MasterTransaksiAdmin();
             frm.ShowDialog();
         }
 
         private void btnMember_Click(object sender, EventArgs e)
         {
             this.Hide();
-            MasterMember frm = new MasterMember();
+            MasterMemberAdmin frm = new MasterMemberAdmin();
             frm.ShowDialog();
         }
 
@@ -91,15 +91,17 @@ namespace Project_PCS
             frm.ShowDialog();
         }
 
-        private void btnBuku_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnPegawai_Click(object sender, EventArgs e)
         {
             this.Hide();
             MasterPegawaiAdmin frm = new MasterPegawaiAdmin();
+            frm.ShowDialog();
+        }
+
+        private void btnLaporan_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MasterLaporanAdmin frm = new MasterLaporanAdmin();
             frm.ShowDialog();
         }
     }

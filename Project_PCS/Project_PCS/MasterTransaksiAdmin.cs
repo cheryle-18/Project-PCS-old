@@ -11,9 +11,9 @@ using System.Windows;
 
 namespace Project_PCS
 {
-    public partial class MasterKategoriAdmin : Form
+    public partial class MasterTransaksiAdmin : Form
     {
-        public MasterKategoriAdmin()
+        public MasterTransaksiAdmin()
         {
             InitializeComponent();
         }
@@ -61,7 +61,7 @@ namespace Project_PCS
         private void btnTransaksi_Click(object sender, EventArgs e)
         {
             this.Hide();
-            MasterTransaksiAdmin frm = new MasterTransaksiAdmin();
+            MasterTransaksi frm = new MasterTransaksi();
             frm.ShowDialog();
         }
 
@@ -88,6 +88,13 @@ namespace Project_PCS
         {
             this.Hide();
             MasterBukuAdmin frm = new MasterBukuAdmin();
+            frm.ShowDialog();
+        }
+
+        private void btnKategori_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MasterKategoriAdmin frm = new MasterKategoriAdmin();
             frm.ShowDialog();
         }
 
