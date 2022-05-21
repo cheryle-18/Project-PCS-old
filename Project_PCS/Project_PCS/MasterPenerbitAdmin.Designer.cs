@@ -124,6 +124,7 @@ namespace Project_PCS
             this.btnPegawai.TabIndex = 11;
             this.btnPegawai.Text = "Pegawai";
             this.btnPegawai.UseVisualStyleBackColor = true;
+            this.btnPegawai.Click += new System.EventHandler(this.btnPegawai_Click);
             this.btnPegawai.MouseLeave += new System.EventHandler(this.btn_MouseLeave);
             this.btnPegawai.MouseHover += new System.EventHandler(this.btn_MouseHover);
             // 

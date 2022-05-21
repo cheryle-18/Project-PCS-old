@@ -29,7 +29,6 @@ namespace Project_PCS
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnMember = new System.Windows.Forms.Button();
             this.btnLogout = new System.Windows.Forms.Button();
@@ -58,21 +57,16 @@ namespace Project_PCS
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Project_PCS.Properties.Resources.book;
-            this.pictureBox1.Location = new System.Drawing.Point(36, 26);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(155, 61);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
             // 
             // panel1
             // 
@@ -179,6 +173,10 @@ namespace Project_PCS
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel2.BackColor = System.Drawing.Color.White;
+            this.panel2.Controls.Add(this.radioButton2);
+            this.panel2.Controls.Add(this.radioButton1);
+            this.panel2.Controls.Add(this.label14);
+            this.panel2.Controls.Add(this.label13);
             this.panel2.Controls.Add(this.textBox4);
             this.panel2.Controls.Add(this.textBox3);
             this.panel2.Controls.Add(this.dateTimePicker1);
@@ -394,6 +392,56 @@ namespace Project_PCS
             this.textBox4.Size = new System.Drawing.Size(213, 22);
             this.textBox4.TabIndex = 74;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Project_PCS.Properties.Resources.book;
+            this.pictureBox1.Location = new System.Drawing.Point(36, 26);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(155, 61);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Location = new System.Drawing.Point(328, 405);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(87, 21);
+            this.radioButton2.TabIndex = 98;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "Non-Aktif";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(244, 404);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(56, 21);
+            this.radioButton1.TabIndex = 97;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "Aktif";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // label14
+            // 
+            this.label14.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(201, 397);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(15, 28);
+            this.label14.TabIndex = 96;
+            this.label14.Text = ":";
+            // 
+            // label13
+            // 
+            this.label13.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(25, 397);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(191, 28);
+            this.label13.TabIndex = 95;
+            this.label13.Text = "Status";
+            // 
             // FormMemberBaru
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -404,13 +452,13 @@ namespace Project_PCS
             this.Text = "FormMemberBaru";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormMemberBaru_FormClosed);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -446,5 +494,9 @@ namespace Project_PCS
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label13;
     }
 }

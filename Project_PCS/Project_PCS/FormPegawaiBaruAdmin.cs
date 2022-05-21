@@ -10,28 +10,30 @@ using System.Windows.Forms;
 
 namespace Project_PCS
 {
-    public partial class MasterKategoriAdmin : Form
+    public partial class FormPegawaiBaruAdmin : Form
     {
-        public MasterKategoriAdmin()
+        public FormPegawaiBaruAdmin()
         {
             InitializeComponent();
         }
 
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label8_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnPenerbit_Click(object sender, EventArgs e)
+        private void btnBack_Click(object sender, EventArgs e)
         {
             this.Hide();
-            MasterPenerbitAdmin frm = new MasterPenerbitAdmin();
+            MasterPegawaiAdmin frm = new MasterPegawaiAdmin();
             frm.ShowDialog();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MasterPegawaiAdmin frm = new MasterPegawaiAdmin();
+            frm.ShowDialog();
+        }
+
+        private void FormPegawaiBaruAdmin_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
 
         private void btnBuku_Click(object sender, EventArgs e)
@@ -41,9 +43,11 @@ namespace Project_PCS
             frm.ShowDialog();
         }
 
-        private void MasterKategoriAdmin_FormClosed(object sender, FormClosedEventArgs e)
+        private void btnPenerbit_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Hide();
+            MasterPenerbitAdmin frm = new MasterPenerbitAdmin();
+            frm.ShowDialog();
         }
 
         private void btnPegawai_Click(object sender, EventArgs e)

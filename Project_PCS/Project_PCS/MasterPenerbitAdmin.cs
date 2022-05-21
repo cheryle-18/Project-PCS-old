@@ -97,5 +97,12 @@ namespace Project_PCS
             MasterKategoriAdmin frm = new MasterKategoriAdmin();
             frm.ShowDialog();
         }
+
+        private void btnPegawai_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MasterPegawaiAdmin frm = new MasterPegawaiAdmin();
+            frm.ShowDialog();
+        }
     }
 }

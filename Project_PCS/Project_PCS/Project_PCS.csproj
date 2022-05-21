@@ -64,6 +64,12 @@
     <Compile Include="FormDetailMember.Designer.cs">
       <DependentUpon>FormDetailMember.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormDetailPegawaiAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDetailPegawaiAdmin.Designer.cs">
+      <DependentUpon>FormDetailPegawaiAdmin.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormDetailTransaksi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,6 +87,12 @@
     </Compile>
     <Compile Include="FormMemberBaru.Designer.cs">
       <DependentUpon>FormMemberBaru.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPegawaiBaruAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPegawaiBaruAdmin.Designer.cs">
+      <DependentUpon>FormPegawaiBaruAdmin.cs</DependentUpon>
     </Compile>
     <Compile Include="FormTransaksiBaru.cs">
       <SubType>Form</SubType>
@@ -112,6 +124,12 @@
     <Compile Include="MasterMember.Designer.cs">
       <DependentUpon>MasterMember.cs</DependentUpon>
     </Compile>
+    <Compile Include="MasterPegawaiAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterPegawaiAdmin.Designer.cs">
+      <DependentUpon>MasterPegawaiAdmin.cs</DependentUpon>
+    </Compile>
     <Compile Include="MasterPenerbitAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -141,6 +159,9 @@
     <EmbeddedResource Include="FormDetailMember.resx">
       <DependentUpon>FormDetailMember.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormDetailPegawaiAdmin.resx">
+      <DependentUpon>FormDetailPegawaiAdmin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormDetailTransaksi.resx">
       <DependentUpon>FormDetailTransaksi.cs</DependentUpon>
     </EmbeddedResource>
@@ -149,6 +170,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormMemberBaru.resx">
       <DependentUpon>FormMemberBaru.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPegawaiBaruAdmin.resx">
+      <DependentUpon>FormPegawaiBaruAdmin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormTransaksiBaru.resx">
       <DependentUpon>FormTransaksiBaru.cs</DependentUpon>
@@ -164,6 +188,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MasterMember.resx">
       <DependentUpon>MasterMember.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterPegawaiAdmin.resx">
+      <DependentUpon>MasterPegawaiAdmin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MasterPenerbitAdmin.resx">
       <DependentUpon>MasterPenerbitAdmin.cs</DependentUpon>

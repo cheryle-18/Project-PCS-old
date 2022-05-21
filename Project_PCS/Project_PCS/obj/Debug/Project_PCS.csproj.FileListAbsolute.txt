@@ -55,3 +55,6 @@ A:\College\github\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.Mast
 A:\College\github\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.FormCariBuku.resources
 A:\College\github\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.FormMemberBaru.resources
 A:\College\github\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.MasterKategoriAdmin.resources
+A:\College\github\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.FormDetailPegawaiAdmin.resources
+A:\College\github\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.MasterPegawaiAdmin.resources
+A:\College\github\Project-PCS\Project_PCS\Project_PCS\obj\Debug\Project_PCS.FormPegawaiBaruAdmin.resources

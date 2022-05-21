@@ -36,7 +36,6 @@ namespace Project_PCS
             this.btnTransaksi = new System.Windows.Forms.Button();
             this.btnBuku = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.lbNama = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -54,11 +53,12 @@ namespace Project_PCS
             this.btnDetail = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label13 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -75,7 +75,7 @@ namespace Project_PCS
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(301, 814);
+            this.panel1.Size = new System.Drawing.Size(301, 661);
             this.panel1.TabIndex = 15;
             // 
             // btnMember
@@ -99,7 +99,7 @@ namespace Project_PCS
             this.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogout.Font = new System.Drawing.Font("Segoe UI Semibold", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogout.ForeColor = System.Drawing.Color.White;
-            this.btnLogout.Location = new System.Drawing.Point(0, 734);
+            this.btnLogout.Location = new System.Drawing.Point(0, 581);
             this.btnLogout.Margin = new System.Windows.Forms.Padding(4, 4, 4, 12);
             this.btnLogout.Name = "btnLogout";
             this.btnLogout.Size = new System.Drawing.Size(297, 54);
@@ -162,17 +162,6 @@ namespace Project_PCS
             this.label1.TabIndex = 2;
             this.label1.Text = "BOOK STATION";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Project_PCS.Properties.Resources.book;
-            this.pictureBox1.Location = new System.Drawing.Point(48, 32);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(207, 75);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
-            // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.Navy;
@@ -181,7 +170,7 @@ namespace Project_PCS
             this.panel3.Location = new System.Drawing.Point(301, 0);
             this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1411, 50);
+            this.panel3.Size = new System.Drawing.Size(983, 50);
             this.panel3.TabIndex = 40;
             // 
             // lbNama
@@ -190,7 +179,7 @@ namespace Project_PCS
             this.lbNama.AutoSize = true;
             this.lbNama.Font = new System.Drawing.Font("Segoe UI Semibold", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbNama.ForeColor = System.Drawing.Color.White;
-            this.lbNama.Location = new System.Drawing.Point(1152, 11);
+            this.lbNama.Location = new System.Drawing.Point(724, 11);
             this.lbNama.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbNama.Name = "lbNama";
             this.lbNama.Size = new System.Drawing.Size(216, 30);
@@ -225,7 +214,7 @@ namespace Project_PCS
             this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(1072, 85);
+            this.label4.Location = new System.Drawing.Point(644, 85);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(181, 28);
@@ -320,7 +309,7 @@ namespace Project_PCS
             this.label12.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(1271, 85);
+            this.label12.Location = new System.Drawing.Point(843, 85);
             this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(114, 28);
@@ -342,7 +331,7 @@ namespace Project_PCS
             this.panel2.Location = new System.Drawing.Point(301, 50);
             this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1411, 763);
+            this.panel2.Size = new System.Drawing.Size(983, 610);
             this.panel2.TabIndex = 52;
             // 
             // btnDetail
@@ -353,7 +342,7 @@ namespace Project_PCS
             this.btnDetail.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDetail.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDetail.ForeColor = System.Drawing.Color.White;
-            this.btnDetail.Location = new System.Drawing.Point(1191, 702);
+            this.btnDetail.Location = new System.Drawing.Point(763, 549);
             this.btnDetail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnDetail.Name = "btnDetail";
             this.btnDetail.Size = new System.Drawing.Size(204, 47);
@@ -364,14 +353,15 @@ namespace Project_PCS
             // 
             // dataGridView1
             // 
-            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(36, 330);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.Size = new System.Drawing.Size(1359, 361);
+            this.dataGridView1.Size = new System.Drawing.Size(931, 211);
             this.dataGridView1.TabIndex = 53;
             // 
             // label13
@@ -385,11 +375,22 @@ namespace Project_PCS
             this.label13.TabIndex = 52;
             this.label13.Text = "Detail Transaksi";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Project_PCS.Properties.Resources.book;
+            this.pictureBox1.Location = new System.Drawing.Point(48, 32);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(207, 75);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
+            // 
             // FormDetailTransaksi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1712, 814);
+            this.ClientSize = new System.Drawing.Size(1284, 661);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
@@ -408,12 +409,12 @@ namespace Project_PCS
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormDetailTransaksi_FormClosed);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
