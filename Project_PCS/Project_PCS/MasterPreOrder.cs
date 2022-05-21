@@ -98,30 +98,20 @@ namespace Project_PCS
             frm.ShowDialog();
         }
 
-        
-
         private void btnDetail_Click(object sender, EventArgs e)
         {
             this.Hide();
             FormDetailPreOrder frm = new FormDetailPreOrder();
             frm.ShowDialog();
-            this.Show();
+            this.Close();
         }
 
         private void btnPOBaru_Click(object sender, EventArgs e)
         {
             this.Hide();
-            FormTambahPreOrder frm = new FormTambahPreOrder();
+            FormTambahPO frm = new FormTambahPO();
             frm.ShowDialog();
             this.Show();
         }
-
-        private void btnReset_Click(object sender, EventArgs e)
-        {
-            tbCari.Text = "Kata Kunci";
-            cmbArah.SelectedIndex = -1;
-            cmbSort.SelectedIndex = -1;
-        }
-
     }
 }

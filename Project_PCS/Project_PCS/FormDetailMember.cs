@@ -21,5 +21,13 @@ namespace Project_PCS
         {
             Application.Exit();
         }
+
+        private void btnDetail_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MasterMember frm = new MasterMember();
+            frm.ShowDialog();
+            this.Close();
+        }
     }
 }
