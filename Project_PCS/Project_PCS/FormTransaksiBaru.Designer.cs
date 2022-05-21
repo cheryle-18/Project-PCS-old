@@ -33,41 +33,29 @@
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.label25 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
+            this.btnBatal = new System.Windows.Forms.Button();
+            this.lbGrandTotal = new System.Windows.Forms.Label();
+            this.lbTotalQty = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.btnDetail = new System.Windows.Forms.Button();
+            this.btnBayar = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.btnBuku = new System.Windows.Forms.Button();
@@ -77,12 +65,43 @@
             this.btnPreOrder = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnTransaksi = new System.Windows.Forms.Button();
+            this.btnCariBuku = new System.Windows.Forms.Button();
+            this.btnTambah = new System.Windows.Forms.Button();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.rbGuest = new System.Windows.Forms.RadioButton();
+            this.rbMember = new System.Windows.Forms.RadioButton();
+            this.tbKodeMember = new System.Windows.Forms.TextBox();
+            this.btnCariMember = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.lbPoinTersedia = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.nudPoint = new System.Windows.Forms.NumericUpDown();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label35 = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
+            this.label37 = new System.Windows.Forms.Label();
+            this.lbDisc = new System.Windows.Forms.Label();
+            this.lbSubtotal = new System.Windows.Forms.Label();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudPoint)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -94,7 +113,7 @@
             this.lbNama.ForeColor = System.Drawing.Color.White;
             this.lbNama.Location = new System.Drawing.Point(877, 9);
             this.lbNama.Name = "lbNama";
-            this.lbNama.Size = new System.Drawing.Size(216, 30);
+            this.lbNama.Size = new System.Drawing.Size(169, 23);
             this.lbNama.TabIndex = 11;
             this.lbNama.Text = "Halo, Nama Pegawai";
             // 
@@ -104,20 +123,37 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel2.BackColor = System.Drawing.Color.White;
+            this.panel2.Controls.Add(this.lbSubtotal);
+            this.panel2.Controls.Add(this.lbDisc);
+            this.panel2.Controls.Add(this.label37);
+            this.panel2.Controls.Add(this.label36);
+            this.panel2.Controls.Add(this.label35);
+            this.panel2.Controls.Add(this.label32);
+            this.panel2.Controls.Add(this.label31);
+            this.panel2.Controls.Add(this.label30);
+            this.panel2.Controls.Add(this.label29);
+            this.panel2.Controls.Add(this.nudPoint);
+            this.panel2.Controls.Add(this.label28);
+            this.panel2.Controls.Add(this.label27);
+            this.panel2.Controls.Add(this.lbPoinTersedia);
+            this.panel2.Controls.Add(this.label5);
+            this.panel2.Controls.Add(this.label4);
+            this.panel2.Controls.Add(this.btnTambah);
+            this.panel2.Controls.Add(this.btnCariBuku);
+            this.panel2.Controls.Add(this.btnCariMember);
             this.panel2.Controls.Add(this.numericUpDown1);
             this.panel2.Controls.Add(this.label25);
             this.panel2.Controls.Add(this.label24);
-            this.panel2.Controls.Add(this.button3);
-            this.panel2.Controls.Add(this.label23);
-            this.panel2.Controls.Add(this.label22);
+            this.panel2.Controls.Add(this.btnBatal);
+            this.panel2.Controls.Add(this.lbGrandTotal);
+            this.panel2.Controls.Add(this.lbTotalQty);
             this.panel2.Controls.Add(this.label21);
             this.panel2.Controls.Add(this.label20);
             this.panel2.Controls.Add(this.label19);
             this.panel2.Controls.Add(this.label18);
-            this.panel2.Controls.Add(this.comboBox1);
-            this.panel2.Controls.Add(this.textBox5);
-            this.panel2.Controls.Add(this.radioButton2);
-            this.panel2.Controls.Add(this.radioButton1);
+            this.panel2.Controls.Add(this.tbKodeMember);
+            this.panel2.Controls.Add(this.rbMember);
+            this.panel2.Controls.Add(this.rbGuest);
             this.panel2.Controls.Add(this.dateTimePicker1);
             this.panel2.Controls.Add(this.textBox4);
             this.panel2.Controls.Add(this.label17);
@@ -130,18 +166,14 @@
             this.panel2.Controls.Add(this.label10);
             this.panel2.Controls.Add(this.label9);
             this.panel2.Controls.Add(this.label8);
-            this.panel2.Controls.Add(this.button2);
             this.panel2.Controls.Add(this.textBox3);
             this.panel2.Controls.Add(this.label7);
             this.panel2.Controls.Add(this.textBox2);
-            this.panel2.Controls.Add(this.button1);
             this.panel2.Controls.Add(this.textBox1);
             this.panel2.Controls.Add(this.label6);
-            this.panel2.Controls.Add(this.label5);
-            this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.dataGridView2);
-            this.panel2.Controls.Add(this.btnDetail);
+            this.panel2.Controls.Add(this.btnBayar);
             this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.panel3);
             this.panel2.Location = new System.Drawing.Point(226, 0);
@@ -151,16 +183,17 @@
             // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(232, 416);
+            this.numericUpDown1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numericUpDown1.Location = new System.Drawing.Point(206, 334);
             this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(120, 30);
+            this.numericUpDown1.Size = new System.Drawing.Size(99, 29);
             this.numericUpDown1.TabIndex = 82;
             // 
             // label25
             // 
             this.label25.BackColor = System.Drawing.Color.Transparent;
             this.label25.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(202, 416);
+            this.label25.Location = new System.Drawing.Point(186, 336);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(14, 28);
             this.label25.TabIndex = 81;
@@ -168,55 +201,58 @@
             // 
             // label24
             // 
+            this.label24.AutoSize = true;
             this.label24.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(25, 416);
+            this.label24.Location = new System.Drawing.Point(24, 336);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(191, 28);
+            this.label24.Size = new System.Drawing.Size(36, 21);
             this.label24.TabIndex = 80;
-            this.label24.Text = "Jumlah Buku";
+            this.label24.Text = "Qty";
             // 
-            // button3
+            // btnBatal
             // 
-            this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.button3.BackColor = System.Drawing.Color.Navy;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(32, 611);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(143, 38);
-            this.button3.TabIndex = 79;
-            this.button3.Text = "Back";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.btnBatal.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnBatal.BackColor = System.Drawing.Color.Navy;
+            this.btnBatal.FlatAppearance.BorderSize = 0;
+            this.btnBatal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBatal.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBatal.ForeColor = System.Drawing.Color.White;
+            this.btnBatal.Location = new System.Drawing.Point(747, 606);
+            this.btnBatal.Name = "btnBatal";
+            this.btnBatal.Size = new System.Drawing.Size(143, 38);
+            this.btnBatal.TabIndex = 79;
+            this.btnBatal.Text = "Batal";
+            this.btnBatal.UseVisualStyleBackColor = false;
+            this.btnBatal.Click += new System.EventHandler(this.btnBatal_Click);
             // 
-            // label23
+            // lbGrandTotal
             // 
-            this.label23.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label23.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(849, 404);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(194, 28);
-            this.label23.TabIndex = 78;
-            this.label23.Text = "Rp. 600.000";
+            this.lbGrandTotal.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbGrandTotal.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbGrandTotal.Location = new System.Drawing.Point(895, 555);
+            this.lbGrandTotal.Name = "lbGrandTotal";
+            this.lbGrandTotal.Size = new System.Drawing.Size(143, 28);
+            this.lbGrandTotal.TabIndex = 78;
+            this.lbGrandTotal.Text = "500.000";
+            this.lbGrandTotal.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // label22
+            // lbTotalQty
             // 
-            this.label22.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label22.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(849, 360);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(151, 28);
-            this.label22.TabIndex = 77;
-            this.label22.Text = "5";
+            this.lbTotalQty.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbTotalQty.AutoSize = true;
+            this.lbTotalQty.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbTotalQty.Location = new System.Drawing.Point(862, 457);
+            this.lbTotalQty.Name = "lbTotalQty";
+            this.lbTotalQty.Size = new System.Drawing.Size(19, 21);
+            this.lbTotalQty.TabIndex = 77;
+            this.lbTotalQty.Text = "5";
             // 
             // label21
             // 
             this.label21.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label21.BackColor = System.Drawing.Color.Transparent;
             this.label21.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(829, 404);
+            this.label21.Location = new System.Drawing.Point(842, 526);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(14, 28);
             this.label21.TabIndex = 76;
@@ -227,7 +263,7 @@
             this.label20.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label20.BackColor = System.Drawing.Color.Transparent;
             this.label20.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(829, 360);
+            this.label20.Location = new System.Drawing.Point(842, 491);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(14, 28);
             this.label20.TabIndex = 75;
@@ -236,104 +272,48 @@
             // label19
             // 
             this.label19.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(703, 360);
+            this.label19.Location = new System.Drawing.Point(743, 457);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(140, 28);
+            this.label19.Size = new System.Drawing.Size(75, 21);
             this.label19.TabIndex = 74;
-            this.label19.Text = "Jumlah Buku";
+            this.label19.Text = "Total Qty";
             // 
             // label18
             // 
             this.label18.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(703, 404);
+            this.label18.Location = new System.Drawing.Point(743, 492);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(140, 28);
+            this.label18.Size = new System.Drawing.Size(72, 21);
             this.label18.TabIndex = 73;
             this.label18.Text = "Subtotal";
             // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(708, 193);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(188, 33);
-            this.comboBox1.TabIndex = 72;
-            this.comboBox1.Visible = false;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(708, 198);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(174, 30);
-            this.textBox5.TabIndex = 71;
-            this.textBox5.Text = "Bonifacius Ronald";
-            // 
-            // radioButton2
-            // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(708, 160);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(105, 29);
-            this.radioButton2.TabIndex = 70;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Member";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Checked = true;
-            this.radioButton1.Location = new System.Drawing.Point(815, 160);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(85, 29);
-            this.radioButton1.TabIndex = 69;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Guest";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(222, 201);
+            this.dateTimePicker1.CustomFormat = "dd/MM/yyyy";
+            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimePicker1.Location = new System.Drawing.Point(206, 140);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(241, 30);
+            this.dateTimePicker1.Size = new System.Drawing.Size(241, 29);
             this.dateTimePicker1.TabIndex = 68;
             // 
             // textBox4
             // 
             this.textBox4.Enabled = false;
-            this.textBox4.Location = new System.Drawing.Point(222, 158);
+            this.textBox4.Location = new System.Drawing.Point(206, 104);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(225, 30);
+            this.textBox4.Size = new System.Drawing.Size(241, 29);
             this.textBox4.TabIndex = 67;
-            this.textBox4.Text = "NOTA2032031";
-            // 
-            // label17
-            // 
-            this.label17.BackColor = System.Drawing.Color.Transparent;
-            this.label17.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(671, 198);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(14, 28);
-            this.label17.TabIndex = 66;
-            this.label17.Text = ":";
-            // 
-            // label16
-            // 
-            this.label16.BackColor = System.Drawing.Color.Transparent;
-            this.label16.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(671, 160);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(14, 28);
-            this.label16.TabIndex = 65;
-            this.label16.Text = ":";
+            this.textBox4.Text = "20220521TR15";
             // 
             // label15
             // 
             this.label15.BackColor = System.Drawing.Color.Transparent;
             this.label15.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(202, 201);
+            this.label15.Location = new System.Drawing.Point(186, 147);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(14, 28);
             this.label15.TabIndex = 64;
@@ -343,45 +323,29 @@
             // 
             this.label14.BackColor = System.Drawing.Color.Transparent;
             this.label14.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(202, 161);
+            this.label14.Location = new System.Drawing.Point(186, 107);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(14, 28);
             this.label14.TabIndex = 63;
             this.label14.Text = ":";
             // 
-            // label13
-            // 
-            this.label13.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(494, 201);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(191, 28);
-            this.label13.TabIndex = 62;
-            this.label13.Text = "Nama Member";
-            // 
-            // label12
-            // 
-            this.label12.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(494, 161);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(191, 28);
-            this.label12.TabIndex = 61;
-            this.label12.Text = "Jenis Customer";
-            // 
             // label11
             // 
+            this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(25, 201);
+            this.label11.Location = new System.Drawing.Point(25, 146);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(191, 28);
+            this.label11.Size = new System.Drawing.Size(135, 21);
             this.label11.TabIndex = 60;
             this.label11.Text = "Tanggal Transaksi";
             // 
             // label10
             // 
+            this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(25, 161);
+            this.label10.Location = new System.Drawing.Point(25, 106);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(191, 28);
+            this.label10.Size = new System.Drawing.Size(102, 21);
             this.label10.TabIndex = 59;
             this.label10.Text = "Nomor Nota";
             // 
@@ -389,7 +353,7 @@
             // 
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(202, 373);
+            this.label9.Location = new System.Drawing.Point(186, 295);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(14, 28);
             this.label9.TabIndex = 58;
@@ -399,101 +363,67 @@
             // 
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(202, 293);
+            this.label8.Location = new System.Drawing.Point(186, 222);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(14, 28);
             this.label8.TabIndex = 57;
             this.label8.Text = ":";
             // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(458, 371);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(119, 30);
-            this.button2.TabIndex = 56;
-            this.button2.Text = "Tambah";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(232, 371);
+            this.textBox3.Enabled = false;
+            this.textBox3.Location = new System.Drawing.Point(206, 293);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(220, 30);
+            this.textBox3.Size = new System.Drawing.Size(220, 29);
             this.textBox3.TabIndex = 55;
             this.textBox3.Text = "120.000";
             // 
             // label7
             // 
+            this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(25, 373);
+            this.label7.Location = new System.Drawing.Point(24, 295);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(191, 28);
+            this.label7.Size = new System.Drawing.Size(128, 21);
             this.label7.TabIndex = 54;
             this.label7.Text = "Harga Buku (Rp)";
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(232, 329);
+            this.textBox2.Enabled = false;
+            this.textBox2.Location = new System.Drawing.Point(206, 255);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(424, 30);
+            this.textBox2.Size = new System.Drawing.Size(339, 29);
             this.textBox2.TabIndex = 53;
-            this.textBox2.Text = "Harry Potter And The Order Of Phoenix";
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(460, 292);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(93, 31);
-            this.button1.TabIndex = 52;
-            this.button1.Text = "Cari";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.textBox2.Text = "Harry Potter and The Order Of Phoenix";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(234, 293);
+            this.textBox1.Enabled = false;
+            this.textBox1.Location = new System.Drawing.Point(206, 220);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(220, 30);
+            this.textBox1.Size = new System.Drawing.Size(220, 29);
             this.textBox1.TabIndex = 51;
-            this.textBox1.Text = "1234345678";
+            this.textBox1.Text = "B005";
             // 
             // label6
             // 
+            this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(27, 295);
+            this.label6.Location = new System.Drawing.Point(24, 222);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(191, 28);
+            this.label6.Size = new System.Drawing.Size(89, 21);
             this.label6.TabIndex = 50;
-            this.label6.Text = "ISBN";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label5.Location = new System.Drawing.Point(23, 243);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(152, 37);
-            this.label5.TabIndex = 49;
-            this.label5.Text = "Input Buku";
-            // 
-            // label4
-            // 
-            this.label4.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label4.Location = new System.Drawing.Point(23, 105);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(295, 37);
-            this.label4.TabIndex = 48;
-            this.label4.Text = "Data Transaksi";
+            this.label6.Text = "Kode Buku";
             // 
             // label2
             // 
-            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label2.Location = new System.Drawing.Point(25, 462);
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label2.Location = new System.Drawing.Point(24, 380);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(295, 37);
+            this.label2.Size = new System.Drawing.Size(99, 25);
             this.label2.TabIndex = 47;
             this.label2.Text = "Keranjang";
             // 
@@ -502,28 +432,37 @@
             this.dataGridView2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataGridView2.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView2.BackgroundColor = System.Drawing.Color.Gainsboro;
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(30, 511);
+            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column1,
+            this.Column2,
+            this.Column3,
+            this.Column4,
+            this.Column5});
+            this.dataGridView2.Location = new System.Drawing.Point(28, 412);
             this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.RowHeadersVisible = false;
             this.dataGridView2.RowHeadersWidth = 51;
-            this.dataGridView2.Size = new System.Drawing.Size(1017, 85);
+            this.dataGridView2.Size = new System.Drawing.Size(709, 232);
             this.dataGridView2.TabIndex = 46;
             // 
-            // btnDetail
+            // btnBayar
             // 
-            this.btnDetail.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnDetail.BackColor = System.Drawing.Color.Navy;
-            this.btnDetail.FlatAppearance.BorderSize = 0;
-            this.btnDetail.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDetail.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDetail.ForeColor = System.Drawing.Color.White;
-            this.btnDetail.Location = new System.Drawing.Point(904, 611);
-            this.btnDetail.Name = "btnDetail";
-            this.btnDetail.Size = new System.Drawing.Size(143, 38);
-            this.btnDetail.TabIndex = 29;
-            this.btnDetail.Text = "Bayar";
-            this.btnDetail.UseVisualStyleBackColor = false;
+            this.btnBayar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnBayar.BackColor = System.Drawing.Color.Navy;
+            this.btnBayar.FlatAppearance.BorderSize = 0;
+            this.btnBayar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBayar.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBayar.ForeColor = System.Drawing.Color.White;
+            this.btnBayar.Location = new System.Drawing.Point(895, 606);
+            this.btnBayar.Name = "btnBayar";
+            this.btnBayar.Size = new System.Drawing.Size(143, 38);
+            this.btnBayar.TabIndex = 29;
+            this.btnBayar.Text = "Bayar";
+            this.btnBayar.UseVisualStyleBackColor = false;
+            this.btnBayar.Click += new System.EventHandler(this.btnBayar_Click);
             // 
             // label3
             // 
@@ -531,9 +470,9 @@
             this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(23, 56);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(263, 37);
+            this.label3.Size = new System.Drawing.Size(149, 30);
             this.label3.TabIndex = 14;
-            this.label3.Text = "Form Transaksi Baru";
+            this.label3.Text = "Transaksi Baru";
             // 
             // panel3
             // 
@@ -566,7 +505,7 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(19, 90);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(240, 37);
+            this.label1.Size = new System.Drawing.Size(191, 30);
             this.label1.TabIndex = 2;
             this.label1.Text = "BOOK STATION";
             // 
@@ -643,6 +582,315 @@
             this.btnTransaksi.Text = "Transaksi";
             this.btnTransaksi.UseVisualStyleBackColor = false;
             // 
+            // btnCariBuku
+            // 
+            this.btnCariBuku.AutoSize = true;
+            this.btnCariBuku.BackColor = System.Drawing.Color.Navy;
+            this.btnCariBuku.FlatAppearance.BorderSize = 0;
+            this.btnCariBuku.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCariBuku.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCariBuku.ForeColor = System.Drawing.Color.White;
+            this.btnCariBuku.Location = new System.Drawing.Point(432, 219);
+            this.btnCariBuku.Name = "btnCariBuku";
+            this.btnCariBuku.Size = new System.Drawing.Size(113, 31);
+            this.btnCariBuku.TabIndex = 84;
+            this.btnCariBuku.Text = "...";
+            this.btnCariBuku.UseVisualStyleBackColor = false;
+            this.btnCariBuku.Click += new System.EventHandler(this.btnCariBuku_Click);
+            // 
+            // btnTambah
+            // 
+            this.btnTambah.AutoSize = true;
+            this.btnTambah.BackColor = System.Drawing.Color.Navy;
+            this.btnTambah.FlatAppearance.BorderSize = 0;
+            this.btnTambah.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTambah.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTambah.ForeColor = System.Drawing.Color.White;
+            this.btnTambah.Location = new System.Drawing.Point(311, 334);
+            this.btnTambah.Name = "btnTambah";
+            this.btnTambah.Size = new System.Drawing.Size(113, 31);
+            this.btnTambah.TabIndex = 85;
+            this.btnTambah.Text = "Tambah";
+            this.btnTambah.UseVisualStyleBackColor = false;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(608, 106);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(120, 21);
+            this.label12.TabIndex = 61;
+            this.label12.Text = "Jenis Customer";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(608, 146);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(116, 21);
+            this.label13.TabIndex = 62;
+            this.label13.Text = "Kode Member";
+            // 
+            // label16
+            // 
+            this.label16.BackColor = System.Drawing.Color.Transparent;
+            this.label16.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(743, 104);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(14, 28);
+            this.label16.TabIndex = 65;
+            this.label16.Text = ":";
+            // 
+            // label17
+            // 
+            this.label17.BackColor = System.Drawing.Color.Transparent;
+            this.label17.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(743, 144);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(14, 28);
+            this.label17.TabIndex = 66;
+            this.label17.Text = ":";
+            // 
+            // rbGuest
+            // 
+            this.rbGuest.AutoSize = true;
+            this.rbGuest.Location = new System.Drawing.Point(880, 104);
+            this.rbGuest.Name = "rbGuest";
+            this.rbGuest.Size = new System.Drawing.Size(68, 25);
+            this.rbGuest.TabIndex = 69;
+            this.rbGuest.Text = "Guest";
+            this.rbGuest.UseVisualStyleBackColor = true;
+            this.rbGuest.CheckedChanged += new System.EventHandler(this.rbGuest_CheckedChanged);
+            // 
+            // rbMember
+            // 
+            this.rbMember.AutoSize = true;
+            this.rbMember.Checked = true;
+            this.rbMember.Location = new System.Drawing.Point(773, 104);
+            this.rbMember.Name = "rbMember";
+            this.rbMember.Size = new System.Drawing.Size(87, 25);
+            this.rbMember.TabIndex = 70;
+            this.rbMember.TabStop = true;
+            this.rbMember.Text = "Member";
+            this.rbMember.UseVisualStyleBackColor = true;
+            this.rbMember.CheckedChanged += new System.EventHandler(this.rbMember_CheckedChanged);
+            // 
+            // tbKodeMember
+            // 
+            this.tbKodeMember.Enabled = false;
+            this.tbKodeMember.Location = new System.Drawing.Point(773, 143);
+            this.tbKodeMember.Name = "tbKodeMember";
+            this.tbKodeMember.Size = new System.Drawing.Size(147, 29);
+            this.tbKodeMember.TabIndex = 71;
+            this.tbKodeMember.Text = "MEM025";
+            // 
+            // btnCariMember
+            // 
+            this.btnCariMember.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnCariMember.AutoSize = true;
+            this.btnCariMember.BackColor = System.Drawing.Color.Navy;
+            this.btnCariMember.FlatAppearance.BorderSize = 0;
+            this.btnCariMember.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCariMember.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCariMember.ForeColor = System.Drawing.Color.White;
+            this.btnCariMember.Location = new System.Drawing.Point(926, 142);
+            this.btnCariMember.Name = "btnCariMember";
+            this.btnCariMember.Size = new System.Drawing.Size(113, 31);
+            this.btnCariMember.TabIndex = 83;
+            this.btnCariMember.Text = "...";
+            this.btnCariMember.UseVisualStyleBackColor = false;
+            this.btnCariMember.Click += new System.EventHandler(this.btnCariMember_Click);
+            // 
+            // label4
+            // 
+            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(608, 187);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(105, 21);
+            this.label4.TabIndex = 86;
+            this.label4.Text = "Poin Tersedia";
+            // 
+            // lbPoinTersedia
+            // 
+            this.lbPoinTersedia.AutoSize = true;
+            this.lbPoinTersedia.Location = new System.Drawing.Point(769, 187);
+            this.lbPoinTersedia.Name = "lbPoinTersedia";
+            this.lbPoinTersedia.Size = new System.Drawing.Size(37, 21);
+            this.lbPoinTersedia.TabIndex = 88;
+            this.lbPoinTersedia.Text = "150";
+            // 
+            // label27
+            // 
+            this.label27.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label27.AutoSize = true;
+            this.label27.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.Location = new System.Drawing.Point(608, 222);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(121, 21);
+            this.label27.TabIndex = 89;
+            this.label27.Text = "Poin Digunakan";
+            // 
+            // label5
+            // 
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(743, 187);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(14, 28);
+            this.label5.TabIndex = 87;
+            this.label5.Text = ":";
+            // 
+            // label28
+            // 
+            this.label28.BackColor = System.Drawing.Color.Transparent;
+            this.label28.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.Location = new System.Drawing.Point(743, 222);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(14, 28);
+            this.label28.TabIndex = 90;
+            this.label28.Text = ":";
+            // 
+            // nudPoint
+            // 
+            this.nudPoint.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nudPoint.Location = new System.Drawing.Point(773, 221);
+            this.nudPoint.Name = "nudPoint";
+            this.nudPoint.Size = new System.Drawing.Size(95, 29);
+            this.nudPoint.TabIndex = 91;
+            this.nudPoint.Value = new decimal(new int[] {
+            100,
+            0,
+            0,
+            0});
+            // 
+            // label29
+            // 
+            this.label29.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label29.AutoSize = true;
+            this.label29.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.Location = new System.Drawing.Point(743, 525);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(59, 21);
+            this.label29.TabIndex = 92;
+            this.label29.Text = "Diskon";
+            // 
+            // label30
+            // 
+            this.label30.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label30.AutoSize = true;
+            this.label30.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.Location = new System.Drawing.Point(743, 559);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(93, 21);
+            this.label30.TabIndex = 93;
+            this.label30.Text = "Grand Total";
+            // 
+            // label31
+            // 
+            this.label31.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label31.BackColor = System.Drawing.Color.Transparent;
+            this.label31.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.Location = new System.Drawing.Point(842, 559);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(14, 28);
+            this.label31.TabIndex = 94;
+            this.label31.Text = ":";
+            // 
+            // label32
+            // 
+            this.label32.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label32.BackColor = System.Drawing.Color.Transparent;
+            this.label32.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.Location = new System.Drawing.Point(842, 457);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(14, 28);
+            this.label32.TabIndex = 98;
+            this.label32.Text = ":";
+            // 
+            // label35
+            // 
+            this.label35.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label35.AutoSize = true;
+            this.label35.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label35.Location = new System.Drawing.Point(862, 492);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(29, 21);
+            this.label35.TabIndex = 99;
+            this.label35.Text = "Rp";
+            // 
+            // label36
+            // 
+            this.label36.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label36.AutoSize = true;
+            this.label36.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.Location = new System.Drawing.Point(862, 526);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(29, 21);
+            this.label36.TabIndex = 100;
+            this.label36.Text = "Rp";
+            // 
+            // label37
+            // 
+            this.label37.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label37.AutoSize = true;
+            this.label37.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label37.Location = new System.Drawing.Point(862, 559);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(30, 21);
+            this.label37.TabIndex = 101;
+            this.label37.Text = "Rp";
+            // 
+            // lbDisc
+            // 
+            this.lbDisc.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbDisc.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbDisc.Location = new System.Drawing.Point(895, 522);
+            this.lbDisc.Name = "lbDisc";
+            this.lbDisc.Size = new System.Drawing.Size(143, 28);
+            this.lbDisc.TabIndex = 102;
+            this.lbDisc.Text = "100.000";
+            this.lbDisc.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // lbSubtotal
+            // 
+            this.lbSubtotal.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbSubtotal.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbSubtotal.Location = new System.Drawing.Point(895, 488);
+            this.lbSubtotal.Name = "lbSubtotal";
+            this.lbSubtotal.Size = new System.Drawing.Size(143, 28);
+            this.lbSubtotal.TabIndex = 103;
+            this.lbSubtotal.Text = "600.000";
+            this.lbSubtotal.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "Kode Buku";
+            this.Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "Judul Buku";
+            this.Column2.Name = "Column2";
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "Harga";
+            this.Column3.Name = "Column3";
+            // 
+            // Column4
+            // 
+            this.Column4.HeaderText = "Qty";
+            this.Column4.Name = "Column4";
+            // 
+            // Column5
+            // 
+            this.Column5.HeaderText = "Subtotal";
+            this.Column5.Name = "Column5";
+            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Project_PCS.Properties.Resources.book;
@@ -659,11 +907,12 @@
             this.ClientSize = new System.Drawing.Size(1284, 661);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "FormTransaksiBaru";
             this.Text = "FormTransaksiBaru";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormTransaksiBaru_FormClosed);
+            this.Load += new System.EventHandler(this.FormTransaksiBaru_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
@@ -672,6 +921,7 @@
             this.panel3.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudPoint)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
@@ -680,7 +930,7 @@
         #endregion
         private System.Windows.Forms.Label lbNama;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Button btnDetail;
+        private System.Windows.Forms.Button btnBayar;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button btnBuku;
@@ -691,42 +941,60 @@
         private System.Windows.Forms.Button btnPreOrder;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnTransaksi;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.DataGridView dataGridView2;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label lbGrandTotal;
+        private System.Windows.Forms.Label lbTotalQty;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnBatal;
         private System.Windows.Forms.NumericUpDown numericUpDown1;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Button btnTambah;
+        private System.Windows.Forms.Button btnCariBuku;
+        private System.Windows.Forms.Button btnCariMember;
+        private System.Windows.Forms.TextBox tbKodeMember;
+        private System.Windows.Forms.RadioButton rbMember;
+        private System.Windows.Forms.RadioButton rbGuest;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.NumericUpDown nudPoint;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Label lbPoinTersedia;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.Label label37;
+        private System.Windows.Forms.Label label36;
+        private System.Windows.Forms.Label label35;
+        private System.Windows.Forms.Label lbSubtotal;
+        private System.Windows.Forms.Label lbDisc;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
     }
 }

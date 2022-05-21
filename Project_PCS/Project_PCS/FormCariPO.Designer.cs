@@ -1,7 +1,7 @@
 ﻿
 namespace Project_PCS
 {
-    partial class FormCariBuku
+    partial class FormCariPO
     {
         /// <summary>
         /// Required designer variable.
@@ -41,29 +41,29 @@ namespace Project_PCS
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(17, 77);
+            this.label4.Location = new System.Drawing.Point(20, 79);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(89, 21);
-            this.label4.TabIndex = 88;
+            this.label4.TabIndex = 100;
             this.label4.Text = "Kata Kunci :";
             // 
             // tbCari
             // 
-            this.tbCari.Location = new System.Drawing.Point(112, 74);
+            this.tbCari.Location = new System.Drawing.Point(115, 76);
             this.tbCari.Name = "tbCari";
             this.tbCari.Size = new System.Drawing.Size(396, 29);
-            this.tbCari.TabIndex = 87;
-            this.tbCari.Text = "Kode / Judul / Penulis Buku";
+            this.tbCari.TabIndex = 99;
+            this.tbCari.Text = "Kode / Nomor Nota Pre-Order";
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(21, 121);
+            this.dataGridView1.Location = new System.Drawing.Point(24, 123);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(805, 429);
-            this.dataGridView1.TabIndex = 86;
+            this.dataGridView1.TabIndex = 98;
             // 
             // button3
             // 
@@ -72,10 +72,10 @@ namespace Project_PCS
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(21, 560);
+            this.button3.Location = new System.Drawing.Point(24, 562);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(143, 38);
-            this.button3.TabIndex = 85;
+            this.button3.TabIndex = 97;
             this.button3.Text = "Back";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
@@ -87,10 +87,10 @@ namespace Project_PCS
             this.btnPilih.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPilih.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPilih.ForeColor = System.Drawing.Color.White;
-            this.btnPilih.Location = new System.Drawing.Point(683, 560);
+            this.btnPilih.Location = new System.Drawing.Point(686, 562);
             this.btnPilih.Name = "btnPilih";
             this.btnPilih.Size = new System.Drawing.Size(143, 38);
-            this.btnPilih.TabIndex = 84;
+            this.btnPilih.TabIndex = 96;
             this.btnPilih.Text = "Pilih";
             this.btnPilih.UseVisualStyleBackColor = false;
             this.btnPilih.Click += new System.EventHandler(this.btnPilih_Click);
@@ -99,13 +99,13 @@ namespace Project_PCS
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(12, 9);
+            this.label3.Location = new System.Drawing.Point(15, 11);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(104, 30);
-            this.label3.TabIndex = 83;
-            this.label3.Text = "Cari Buku";
+            this.label3.Size = new System.Drawing.Size(151, 30);
+            this.label3.TabIndex = 95;
+            this.label3.Text = "Cari Pre-Order";
             // 
-            // FormCariBuku
+            // FormCariPO
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.White;
@@ -117,11 +117,9 @@ namespace Project_PCS
             this.Controls.Add(this.btnPilih);
             this.Controls.Add(this.label3);
             this.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Name = "FormCariBuku";
+            this.Name = "FormCariPO";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FormCariBuku";
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormCariBuku_FormClosed);
-            this.Load += new System.EventHandler(this.FormCariBuku_Load);
+            this.Text = "FormCariPO";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

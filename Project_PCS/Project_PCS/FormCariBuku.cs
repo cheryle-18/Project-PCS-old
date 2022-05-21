@@ -26,7 +26,24 @@ namespace Project_PCS
 
         private void FormCariBuku_FormClosed(object sender, FormClosedEventArgs e)
         {
-            Application.Exit();
+
+        }
+
+        private void FormCariBuku_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            this.Close();
+        }
+
+        private void btnPilih_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            this.Close();
         }
     }
 }

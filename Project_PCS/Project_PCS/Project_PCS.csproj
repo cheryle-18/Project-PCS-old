@@ -52,6 +52,18 @@
     <Compile Include="FormCariBuku.Designer.cs">
       <DependentUpon>FormCariBuku.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormCariMember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCariMember.Designer.cs">
+      <DependentUpon>FormCariMember.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCariPO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCariPO.Designer.cs">
+      <DependentUpon>FormCariPO.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormDetailBuku.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,6 +100,33 @@
     <Compile Include="FormMemberBaru.Designer.cs">
       <DependentUpon>FormMemberBaru.cs</DependentUpon>
     </Compile>
+<<<<<<< Updated upstream
+=======
+    <Compile Include="FormPegawaiBaruAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPegawaiBaruAdmin.Designer.cs">
+      <DependentUpon>FormPegawaiBaruAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPreOrderBaru.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPreOrderBaru.Designer.cs">
+      <DependentUpon>FormPreOrderBaru.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProsesPreOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProsesPreOrder.Designer.cs">
+      <DependentUpon>FormProsesPreOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTambahBukuAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTambahBukuAdmin.designer.cs">
+      <DependentUpon>FormTambahBukuAdmin.cs</DependentUpon>
+    </Compile>
+>>>>>>> Stashed changes
     <Compile Include="FormTransaksiBaru.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -141,6 +180,12 @@
     <EmbeddedResource Include="FormCariBuku.resx">
       <DependentUpon>FormCariBuku.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormCariMember.resx">
+      <DependentUpon>FormCariMember.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCariPO.resx">
+      <DependentUpon>FormCariPO.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormDetailBuku.resx">
       <DependentUpon>FormDetailBuku.cs</DependentUpon>
     </EmbeddedResource>
@@ -159,6 +204,21 @@
     <EmbeddedResource Include="FormMemberBaru.resx">
       <DependentUpon>FormMemberBaru.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< Updated upstream
+=======
+    <EmbeddedResource Include="FormPegawaiBaruAdmin.resx">
+      <DependentUpon>FormPegawaiBaruAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPreOrderBaru.resx">
+      <DependentUpon>FormPreOrderBaru.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProsesPreOrder.resx">
+      <DependentUpon>FormProsesPreOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTambahBukuAdmin.resx">
+      <DependentUpon>FormTambahBukuAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+>>>>>>> Stashed changes
     <EmbeddedResource Include="FormTransaksiBaru.resx">
       <DependentUpon>FormTransaksiBaru.cs</DependentUpon>
     </EmbeddedResource>

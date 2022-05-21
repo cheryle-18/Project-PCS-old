@@ -10,30 +10,33 @@ using System.Windows.Forms;
 
 namespace Project_PCS
 {
-    public partial class FormDetailPreOrder : Form
+    public partial class FormProsesPreOrder : Form
     {
-        public FormDetailPreOrder()
+        public FormProsesPreOrder()
         {
             InitializeComponent();
         }
-<<<<<<< Updated upstream
-=======
 
-        private void btnDetail_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FormCariPO frm = new FormCariPO();
+            frm.ShowDialog();
+        }
+
+        private void btnBatal_Click(object sender, EventArgs e)
         {
             this.Hide();
-            MasterPreOrder frm = new MasterPreOrder();
+            FormDetailPreOrder frm = new FormDetailPreOrder();
             frm.ShowDialog();
             this.Close();
         }
 
-        private void btnPOBaru_Click(object sender, EventArgs e)
+        private void btnBayar_Click(object sender, EventArgs e)
         {
             this.Hide();
-            FormProsesPreOrder frm = new FormProsesPreOrder();
+            FormDetailPreOrder frm = new FormDetailPreOrder();
             frm.ShowDialog();
             this.Close();
         }
->>>>>>> Stashed changes
     }
 }

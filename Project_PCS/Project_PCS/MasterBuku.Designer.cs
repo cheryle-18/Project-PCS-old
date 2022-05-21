@@ -36,6 +36,7 @@ namespace Project_PCS
             this.btnTransaksi = new System.Windows.Forms.Button();
             this.btnBuku = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.lbNama = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -48,12 +49,11 @@ namespace Project_PCS
             this.tbCari = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -160,9 +160,19 @@ namespace Project_PCS
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(19, 90);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(240, 37);
+            this.label1.Size = new System.Drawing.Size(191, 30);
             this.label1.TabIndex = 2;
             this.label1.Text = "BOOK STATION";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Project_PCS.Properties.Resources.book;
+            this.pictureBox1.Location = new System.Drawing.Point(36, 26);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(155, 61);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
             // 
             // dataGridView1
             // 
@@ -184,7 +194,7 @@ namespace Project_PCS
             this.lbNama.ForeColor = System.Drawing.Color.White;
             this.lbNama.Location = new System.Drawing.Point(887, 9);
             this.lbNama.Name = "lbNama";
-            this.lbNama.Size = new System.Drawing.Size(216, 30);
+            this.lbNama.Size = new System.Drawing.Size(169, 23);
             this.lbNama.TabIndex = 11;
             this.lbNama.Text = "Halo, Nama Pegawai";
             // 
@@ -234,7 +244,7 @@ namespace Project_PCS
             this.btnReset.ForeColor = System.Drawing.Color.White;
             this.btnReset.Location = new System.Drawing.Point(951, 115);
             this.btnReset.Name = "btnReset";
-            this.btnReset.Size = new System.Drawing.Size(95, 34);
+            this.btnReset.Size = new System.Drawing.Size(95, 30);
             this.btnReset.TabIndex = 25;
             this.btnReset.Text = "Reset";
             this.btnReset.UseVisualStyleBackColor = false;
@@ -249,7 +259,7 @@ namespace Project_PCS
             "Descending"});
             this.cmbArah.Location = new System.Drawing.Point(817, 116);
             this.cmbArah.Name = "cmbArah";
-            this.cmbArah.Size = new System.Drawing.Size(128, 36);
+            this.cmbArah.Size = new System.Drawing.Size(128, 29);
             this.cmbArah.TabIndex = 24;
             // 
             // label4
@@ -257,7 +267,7 @@ namespace Project_PCS
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(24, 119);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(103, 28);
+            this.label4.Size = new System.Drawing.Size(84, 21);
             this.label4.TabIndex = 23;
             this.label4.Text = "Cari Buku :";
             // 
@@ -274,7 +284,7 @@ namespace Project_PCS
             "Stok"});
             this.cmbSort.Location = new System.Drawing.Point(643, 116);
             this.cmbSort.Name = "cmbSort";
-            this.cmbSort.Size = new System.Drawing.Size(168, 36);
+            this.cmbSort.Size = new System.Drawing.Size(168, 29);
             this.cmbSort.TabIndex = 19;
             // 
             // label2
@@ -283,7 +293,7 @@ namespace Project_PCS
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(474, 119);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(202, 28);
+            this.label2.Size = new System.Drawing.Size(163, 21);
             this.label2.TabIndex = 18;
             this.label2.Text = "Urutkan Berdasarkan :";
             // 
@@ -291,7 +301,7 @@ namespace Project_PCS
             // 
             this.tbCari.Location = new System.Drawing.Point(114, 116);
             this.tbCari.Name = "tbCari";
-            this.tbCari.Size = new System.Drawing.Size(294, 34);
+            this.tbCari.Size = new System.Drawing.Size(294, 29);
             this.tbCari.TabIndex = 15;
             this.tbCari.Text = "Kata Kunci";
             // 
@@ -301,7 +311,7 @@ namespace Project_PCS
             this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(23, 56);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(163, 37);
+            this.label3.Size = new System.Drawing.Size(127, 30);
             this.label3.TabIndex = 14;
             this.label3.Text = "Daftar Buku";
             // 
@@ -315,16 +325,6 @@ namespace Project_PCS
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(1068, 41);
             this.panel3.TabIndex = 12;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Project_PCS.Properties.Resources.book;
-            this.pictureBox1.Location = new System.Drawing.Point(36, 26);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(155, 61);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
             // 
             // MasterBuku
             // 
@@ -342,12 +342,12 @@ namespace Project_PCS
             this.Load += new System.EventHandler(this.MasterBuku_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }

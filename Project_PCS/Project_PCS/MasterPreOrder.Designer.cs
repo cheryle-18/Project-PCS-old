@@ -29,16 +29,9 @@ namespace Project_PCS
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnReset = new System.Windows.Forms.Button();
-            this.cmbArah = new System.Windows.Forms.ComboBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.cmbSort = new System.Windows.Forms.ComboBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.tbCari = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.lbNama = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.btnMember = new System.Windows.Forms.Button();
             this.btnLogout = new System.Windows.Forms.Button();
             this.btnPreOrder = new System.Windows.Forms.Button();
@@ -48,85 +41,26 @@ namespace Project_PCS
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.rbDesc = new System.Windows.Forms.RadioButton();
+            this.rbAsc = new System.Windows.Forms.RadioButton();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.label6 = new System.Windows.Forms.Label();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.label5 = new System.Windows.Forms.Label();
+            this.btnReset = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.cmbSort = new System.Windows.Forms.ComboBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.tbCari = new System.Windows.Forms.TextBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.btnPOBaru = new System.Windows.Forms.Button();
             this.btnDetail = new System.Windows.Forms.Button();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // btnReset
-            // 
-            this.btnReset.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnReset.BackColor = System.Drawing.Color.Navy;
-            this.btnReset.FlatAppearance.BorderSize = 0;
-            this.btnReset.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnReset.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReset.ForeColor = System.Drawing.Color.White;
-            this.btnReset.Location = new System.Drawing.Point(951, 115);
-            this.btnReset.Name = "btnReset";
-            this.btnReset.Size = new System.Drawing.Size(95, 34);
-            this.btnReset.TabIndex = 25;
-            this.btnReset.Text = "Reset";
-            this.btnReset.UseVisualStyleBackColor = false;
-            // 
-            // cmbArah
-            // 
-            this.cmbArah.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.cmbArah.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbArah.FormattingEnabled = true;
-            this.cmbArah.Items.AddRange(new object[] {
-            "Ascending",
-            "Descending"});
-            this.cmbArah.Location = new System.Drawing.Point(817, 116);
-            this.cmbArah.Name = "cmbArah";
-            this.cmbArah.Size = new System.Drawing.Size(128, 29);
-            this.cmbArah.TabIndex = 24;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(24, 119);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(45, 21);
-            this.label4.TabIndex = 23;
-            this.label4.Text = "Cari :";
-            // 
-            // cmbSort
-            // 
-            this.cmbSort.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.cmbSort.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbSort.FormattingEnabled = true;
-            this.cmbSort.Items.AddRange(new object[] {
-            "Kode",
-            "Invoice",
-            "Tanggal",
-            "Judul",
-            "Total"});
-            this.cmbSort.Location = new System.Drawing.Point(643, 116);
-            this.cmbSort.Name = "cmbSort";
-            this.cmbSort.Size = new System.Drawing.Size(168, 29);
-            this.cmbSort.TabIndex = 19;
-            // 
-            // label2
-            // 
-            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(474, 119);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(163, 21);
-            this.label2.TabIndex = 18;
-            this.label2.Text = "Urutkan Berdasarkan :";
-            // 
-            // tbCari
-            // 
-            this.tbCari.Location = new System.Drawing.Point(75, 116);
-            this.tbCari.Name = "tbCari";
-            this.tbCari.Size = new System.Drawing.Size(294, 29);
-            this.tbCari.TabIndex = 15;
-            this.tbCari.Text = "Kata Kunci";
             // 
             // label3
             // 
@@ -159,17 +93,6 @@ namespace Project_PCS
             this.lbNama.Size = new System.Drawing.Size(169, 23);
             this.lbNama.TabIndex = 11;
             this.lbNama.Text = "Halo, Nama Pegawai";
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.Gainsboro;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(28, 160);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(1018, 442);
-            this.dataGridView1.TabIndex = 1;
             // 
             // btnMember
             // 
@@ -296,21 +219,153 @@ namespace Project_PCS
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel2.BackColor = System.Drawing.Color.White;
-            this.panel2.Controls.Add(this.btnPOBaru);
-            this.panel2.Controls.Add(this.btnDetail);
+            this.panel2.Controls.Add(this.rbDesc);
+            this.panel2.Controls.Add(this.rbAsc);
+            this.panel2.Controls.Add(this.dateTimePicker2);
+            this.panel2.Controls.Add(this.label6);
+            this.panel2.Controls.Add(this.dateTimePicker1);
+            this.panel2.Controls.Add(this.label5);
             this.panel2.Controls.Add(this.btnReset);
-            this.panel2.Controls.Add(this.cmbArah);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.cmbSort);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.tbCari);
+            this.panel2.Controls.Add(this.dataGridView1);
+            this.panel2.Controls.Add(this.btnPOBaru);
+            this.panel2.Controls.Add(this.btnDetail);
             this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.panel3);
-            this.panel2.Controls.Add(this.dataGridView1);
             this.panel2.Location = new System.Drawing.Point(226, 0);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1058, 661);
             this.panel2.TabIndex = 14;
+            // 
+            // rbDesc
+            // 
+            this.rbDesc.AutoSize = true;
+            this.rbDesc.Location = new System.Drawing.Point(835, 153);
+            this.rbDesc.Name = "rbDesc";
+            this.rbDesc.Size = new System.Drawing.Size(61, 25);
+            this.rbDesc.TabIndex = 49;
+            this.rbDesc.TabStop = true;
+            this.rbDesc.Text = "Desc";
+            this.rbDesc.UseVisualStyleBackColor = true;
+            // 
+            // rbAsc
+            // 
+            this.rbAsc.AutoSize = true;
+            this.rbAsc.Location = new System.Drawing.Point(777, 153);
+            this.rbAsc.Name = "rbAsc";
+            this.rbAsc.Size = new System.Drawing.Size(52, 25);
+            this.rbAsc.TabIndex = 48;
+            this.rbAsc.TabStop = true;
+            this.rbAsc.Text = "Asc";
+            this.rbAsc.UseVisualStyleBackColor = true;
+            // 
+            // dateTimePicker2
+            // 
+            this.dateTimePicker2.CustomFormat = "dd/MM/yyyy";
+            this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimePicker2.Location = new System.Drawing.Point(366, 149);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(188, 29);
+            this.dateTimePicker2.TabIndex = 47;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(300, 155);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(60, 21);
+            this.label6.TabIndex = 46;
+            this.label6.Text = "sampai";
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.CustomFormat = "dd/MM/yyyy";
+            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimePicker1.Location = new System.Drawing.Point(106, 149);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(188, 29);
+            this.dateTimePicker1.TabIndex = 45;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(24, 155);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(76, 21);
+            this.label5.TabIndex = 44;
+            this.label5.Text = "Filter dari";
+            // 
+            // btnReset
+            // 
+            this.btnReset.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnReset.BackColor = System.Drawing.Color.Navy;
+            this.btnReset.FlatAppearance.BorderSize = 0;
+            this.btnReset.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReset.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReset.ForeColor = System.Drawing.Color.White;
+            this.btnReset.Location = new System.Drawing.Point(951, 112);
+            this.btnReset.Name = "btnReset";
+            this.btnReset.Size = new System.Drawing.Size(95, 30);
+            this.btnReset.TabIndex = 43;
+            this.btnReset.Text = "Reset";
+            this.btnReset.UseVisualStyleBackColor = false;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(24, 115);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(45, 21);
+            this.label4.TabIndex = 42;
+            this.label4.Text = "Cari :";
+            // 
+            // cmbSort
+            // 
+            this.cmbSort.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.cmbSort.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbSort.FormattingEnabled = true;
+            this.cmbSort.Items.AddRange(new object[] {
+            "Kode",
+            "Invoice",
+            "Tanggal",
+            "Total"});
+            this.cmbSort.Location = new System.Drawing.Point(777, 112);
+            this.cmbSort.Name = "cmbSort";
+            this.cmbSort.Size = new System.Drawing.Size(168, 29);
+            this.cmbSort.TabIndex = 41;
+            // 
+            // label2
+            // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(608, 115);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(163, 21);
+            this.label2.TabIndex = 40;
+            this.label2.Text = "Urutkan Berdasarkan :";
+            // 
+            // tbCari
+            // 
+            this.tbCari.Location = new System.Drawing.Point(75, 112);
+            this.tbCari.Name = "tbCari";
+            this.tbCari.Size = new System.Drawing.Size(479, 29);
+            this.tbCari.TabIndex = 39;
+            this.tbCari.Text = "Kata Kunci";
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.Gainsboro;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(28, 194);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.Size = new System.Drawing.Size(1018, 402);
+            this.dataGridView1.TabIndex = 38;
             // 
             // btnPOBaru
             // 
@@ -326,6 +381,7 @@ namespace Project_PCS
             this.btnPOBaru.TabIndex = 30;
             this.btnPOBaru.Text = "Pre-Order Baru";
             this.btnPOBaru.UseVisualStyleBackColor = false;
+            this.btnPOBaru.Click += new System.EventHandler(this.btnPOBaru_Click);
             // 
             // btnDetail
             // 
@@ -357,29 +413,21 @@ namespace Project_PCS
             this.Load += new System.EventHandler(this.MasterPreOrder_Load);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btnReset;
-        private System.Windows.Forms.ComboBox cmbArah;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.ComboBox cmbSort;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox tbCari;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label lbNama;
-        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button btnMember;
         private System.Windows.Forms.Button btnLogout;
         private System.Windows.Forms.Button btnPreOrder;
@@ -390,5 +438,17 @@ namespace Project_PCS
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button btnPOBaru;
         private System.Windows.Forms.Button btnDetail;
+        private System.Windows.Forms.RadioButton rbDesc;
+        private System.Windows.Forms.RadioButton rbAsc;
+        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button btnReset;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.ComboBox cmbSort;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox tbCari;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }

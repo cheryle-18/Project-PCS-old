@@ -41,6 +41,22 @@ namespace Project_PCS
             this.btnPreOrder = new System.Windows.Forms.Button();
             this.btnBuku = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+<<<<<<< Updated upstream
+=======
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.lbNama = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.btnDetail = new System.Windows.Forms.Button();
+            this.btnReset = new System.Windows.Forms.Button();
+>>>>>>> Stashed changes
             this.cmbArah = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
             this.cmbSort = new System.Windows.Forms.ComboBox();
@@ -51,6 +67,7 @@ namespace Project_PCS
             this.btnReset = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+<<<<<<< Updated upstream
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -69,6 +86,14 @@ namespace Project_PCS
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+=======
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.panel3.SuspendLayout();
+>>>>>>> Stashed changes
             this.SuspendLayout();
             // 
             // panel3
@@ -331,9 +356,15 @@ namespace Project_PCS
             this.panel2.Location = new System.Drawing.Point(226, 0);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1058, 661);
+<<<<<<< Updated upstream
             this.panel2.TabIndex = 14;
             // 
             // btnReset
+=======
+            this.panel2.TabIndex = 12;
+            // 
+            // radioButton2
+>>>>>>> Stashed changes
             // 
             this.btnReset.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnReset.BackColor = System.Drawing.Color.Navy;
@@ -423,7 +454,62 @@ namespace Project_PCS
             this.label8.Text = "ID";
             this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
+<<<<<<< Updated upstream
             // label5
+=======
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(16, 467);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(177, 30);
+            this.label6.TabIndex = 62;
+            this.label6.Text = "Tambah Kategori";
+            // 
+            // btnDetail
+            // 
+            this.btnDetail.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnDetail.BackColor = System.Drawing.Color.Navy;
+            this.btnDetail.FlatAppearance.BorderSize = 0;
+            this.btnDetail.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDetail.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDetail.ForeColor = System.Drawing.Color.White;
+            this.btnDetail.Location = new System.Drawing.Point(838, 616);
+            this.btnDetail.Name = "btnDetail";
+            this.btnDetail.Size = new System.Drawing.Size(201, 38);
+            this.btnDetail.TabIndex = 61;
+            this.btnDetail.Text = "Tambah Kategori";
+            this.btnDetail.UseVisualStyleBackColor = false;
+            // 
+            // btnReset
+            // 
+            this.btnReset.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnReset.BackColor = System.Drawing.Color.Navy;
+            this.btnReset.FlatAppearance.BorderSize = 0;
+            this.btnReset.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReset.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReset.ForeColor = System.Drawing.Color.White;
+            this.btnReset.Location = new System.Drawing.Point(944, 120);
+            this.btnReset.Name = "btnReset";
+            this.btnReset.Size = new System.Drawing.Size(95, 30);
+            this.btnReset.TabIndex = 60;
+            this.btnReset.Text = "Reset";
+            this.btnReset.UseVisualStyleBackColor = false;
+            // 
+            // cmbArah
+            // 
+            this.cmbArah.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.cmbArah.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbArah.FormattingEnabled = true;
+            this.cmbArah.Items.AddRange(new object[] {
+            "Ascending",
+            "Descending"});
+            this.cmbArah.Location = new System.Drawing.Point(810, 121);
+            this.cmbArah.Name = "cmbArah";
+            this.cmbArah.Size = new System.Drawing.Size(128, 29);
+            this.cmbArah.TabIndex = 59;
+>>>>>>> Stashed changes
             // 
             this.label5.BackColor = System.Drawing.Color.White;
             this.label5.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -514,6 +600,17 @@ namespace Project_PCS
             this.radioButton2.Text = "Non-Aktif";
             this.radioButton2.UseVisualStyleBackColor = true;
             // 
+            // panel3
+            // 
+            this.panel3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel3.BackColor = System.Drawing.Color.Navy;
+            this.panel3.Controls.Add(this.lbNama);
+            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(1068, 41);
+            this.panel3.TabIndex = 12;
+            // 
             // MasterKategoriAdmin
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -523,6 +620,7 @@ namespace Project_PCS
             this.Name = "MasterKategoriAdmin";
             this.Text = "MasterKategoriAdmin";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+<<<<<<< Updated upstream
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MasterKategoriAdmin_FormClosed);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
@@ -532,6 +630,18 @@ namespace Project_PCS
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+=======
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MasterBuku_FormClosed);
+            this.Load += new System.EventHandler(this.MasterBuku_Load);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+>>>>>>> Stashed changes
             this.ResumeLayout(false);
 
         }
